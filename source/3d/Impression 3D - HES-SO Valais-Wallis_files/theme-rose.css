@@ -1,0 +1,210 @@
+a {
+  color: #da0066;
+}
+h1 {
+  color: #da0066;
+}
+
+h2 {
+  color: #da0066;
+}
+
+h3 {
+  color: #da0066;
+}
+
+h4 {
+  color: #da0066;
+}
+.date {
+color: #da0066;
+}
+.signature {
+color: #da0066;
+}
+nav.nav-second ul li {
+background: url(/img/sprite-rose.png) 250px  11px #da0066 no-repeat;
+}
+nav.nav-second ul li:hover, nav.nav-second ul li.active{
+background-color:#9a0048; 
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-intranet a {
+background: url(/img/sprite-rose.png) 0 -258px no-repeat transparent;
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-conditions a {
+background: url(/img/sprite-rose.png) 0 -304px no-repeat transparent;
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-annuaire a {
+background: url(/img/sprite-rose.png) 0 -349px no-repeat transparent;
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-mediatheque a {
+background: url(/img/sprite-rose.png) 0 -394px no-repeat transparent;
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-acces a {
+background: url(/img/sprite-rose.png) 0 -438px no-repeat transparent;
+}
+aside.teasers .teaser.acces-directs ul li.acces-directs-contact a {
+background: url(/img/sprite-rose.png) 0 -484px no-repeat transparent;
+}
+.publications h4{
+border-bottom:#da0066 solid 1px;
+}
+.publications h4 span{
+background-color:#da0066;
+}
+footer .footer-top {
+background-color: #da0066;
+}
+.btn.primary, input[type="button"].primary, input[type="submit"].primary {
+background: #da0066;
+}
+
+ul.pagination.pagination-one li.active a {
+background: #da0066;
+}
+body.index-shortlist .content-main article span.date {
+color: #da0066;
+}
+body.index-shortlist .content-main article h2 a:hover {
+color: #9a0048;
+}
+
+.year_project li.active a{
+	color:#da0066 !important;
+}
+
+
+
+
+.breadcrumb a:hover {
+color: #9a0048;
+}
+footer .footer-top nav ul li a:hover {
+color:#da0066;
+}
+.img-main.slider-home figcaption a:hover{
+color: #da0066;
+}
+.teaser-center-home-first h2 a:hover{
+color:#da0066;
+}
+.teaser-center-home-actu h3 a:hover{
+color:#da0066;
+}
+.teaser-center-home-agenda h3 a:hover{
+color:#da0066;
+}
+aside.teasers .teaser.acces-directs ul li a:hover{
+color:#da0066;
+}
+.teaser-title-black h3  a:hover{
+color:#da0066;
+}
+aside.teasers .teaser-faq p a:hover{
+color:#da0066;
+}
+
+nav.nav-second ul li ul li.active a, nav.nav-second ul li ul li:hover a{
+color:#da0066;
+}
+body.index-un .content-main article h2 a:hover{
+color:#da0066;
+}
+body.photos.index section.content .content-main .row article h2 a:hover{
+color:#da0066;
+}
+.collaborateurs-trois a:hover{
+color:#da0066;
+}
+.img-main.slider-home figcaption {
+background: url(/img/bg-slider-home-rose.png) 0 0 repeat transparent;
+}
+a:hover {
+  color: #9a0048;
+}
+footer .footer-top nav ul li a:hover {
+color:#9a0048;
+}
+.img-main.slider-home figcaption a:hover{
+color: #9a0048;
+}
+.teaser-center-home-first h2 a:hover{
+color:#9a0048;
+}
+.teaser-center-home-actu h3 a:hover{
+color:#9a0048;
+}
+.teaser-center-home-agenda h3 a:hover{
+color:#9a0048;
+}
+aside.teasers .teaser.acces-directs ul li a:hover{
+color:#9a0048;
+}
+.teaser-title-black h3  a:hover{
+color:#9a0048;
+}
+aside.teasers .teaser-faq p a:hover{
+color:#9a0048;
+}
+
+nav.nav-second ul li ul li.active a, nav.nav-second ul li ul li:hover a{
+color:#da0066;
+}
+body.index-un .content-main article h2 a:hover{
+color:#9a0048;
+}
+body.photos.index section.content .content-main .row article h2 a:hover{
+color:#9a0048;
+}
+.collaborateurs-trois a:hover{
+color:#9a0048;
+}
+.btn.primary:hover,
+input[type="button"].primary:hover,
+input[type="submit"].primary:hover {
+  background: #9a0048;
+}
+footer .footer-bottom ul.footer-sitemap li a:hover {
+color:#9a0048;
+}
+.faq h2:hover {
+color:#9A0048;
+}
+.teaser-title-black h3 a{
+    color:#DA0066;
+}
+.teaser-title-black h3  a:hover{
+    color:#9a0048;
+}
+
+
+body.temoignages .more .citation
+{
+	background: url(/img/bg-slider-home-rose.png) 0 0 repeat transparent;
+}
+
+
+@media screen and (max-width:479px) {
+header{
+	background-color:#da0066;
+}
+}
+
+
+/* cookie conscent */
+.cc-btn{
+    background: #da0066!important;
+    color:#fff!important;
+    text-transform: uppercase!important;
+    font-weight:normal!important;
+    border:solid 1px #da0066!important;
+    border-radius: 4px!important;
+    text-transform: uppercase!important;
+    font-size: 0.8em!important;
+    font-family: 'DINMedium',Helvetica,Arial,sans-serif!important;
+    padding: 2px 12px!important;
+}
+.cc-window.cc-banner{
+    border-top:solid 1px #EAEAEA!important;
+}
+/* end cookie conscent */

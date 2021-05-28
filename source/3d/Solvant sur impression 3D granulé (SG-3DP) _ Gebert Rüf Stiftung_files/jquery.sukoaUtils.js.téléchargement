@@ -1,0 +1,368 @@
+var sukoaUtils = {
+    // version 1.0.0
+
+
+
+
+    // -------------- Helpers --------------
+    shuffleArray: function (o) {
+        for (var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+        return o;
+    },
+
+    // check if canvas is supported
+    isCanvasSupported: function () {
+        var elem = document.createElement('canvas');
+        return !!(elem.getContext && elem.getContext('2d'));
+    },
+
+    // append js script to head
+    appendScriptToHead: function (src) {
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.src = src;
+        $("head").append(s);
+    },
+
+    // -------------- Responsive --------------
+    isMobile: function () {
+        return Modernizr.mq('only screen and (max-width: 46.875rem)');
+    },
+
+    isTablet: function () {
+        return Modernizr.mq('only screen and (min-width: 46.875rem) and (max-width: 64rem)');
+    },
+
+    checkIsEditMode: function () {
+        return $('body').hasClass("editmode");
+    },
+
+    checkIsTouchDevice: function () {
+        if (Modernizr && Modernizr.touch) {
+            return true;
+        }
+        return false;
+    },
+
+    // -------------- Base Settings --------------
+    baseSettings: {},
+
+    addBaseSetting: function (k, v) {
+        sukoaUtils.baseSettings[k] = v;
+    },
+
+    getBaseSetting: function (k, d) {
+        if (sukoaUtils.baseSettings[k]) {
+            d = sukoaUtils.baseSettings[k];
+        }
+        return d;
+    },
+
+    bindFancyboxFn: function () {
+        var bodyObject = $('body');
+
+        //bind fancybox
+        bodyObject.on('click', '.fancybox, .lightbox', function (e) {
+
+            e.preventDefault();
+            var data = $(this).data('image');
+            if (data) {
+                data = data.split(',');
+            }
+            if (data) {
+                var options = {
+                    nextEffect: 'fade',
+                    prevEffect: 'fade',
+                    type: 'image'
+                };
+                $.fancybox.open(data, options);
+            } else {
+                $(this).fancybox();
+            }
+        });
+    },
+
+    // -------------- Rows --------------
+    equalizeEntries: function (includeMargins) {
+        var entries = $(".equalize-entry");
+
+        var maxh = 0;
+        entries.each(function () {
+            var e = $(this);
+            var h = e.height();
+            if (includeMargins) {
+                h = e.outerHeight(true);
+            }
+            if (h > maxh) {
+                maxh = h;
+            }
+        });
+        entries.css("height", maxh + "px");
+    },
+
+    equalizeRows: function (rowSelector, entriesSelector) {
+        if (!rowSelector) {
+            rowSelector = ".equalize";
+        }
+        if (!entriesSelector) {
+            entriesSelector = ".equalize-entry";
+        }
+
+        var rows = $(rowSelector);
+        rows.each(function () {
+            var maxh = 0;
+            var e = $(this);
+            var entries = e.find(entriesSelector);
+            if (!sukoaUtils.isMobile()) {
+                entries.each(function () {
+                    var thisEntry = $(this);
+                    var h = $(this).outerHeight();
+                    if (h > maxh) {
+                        maxh = h;
+                        e.find(".highestFor-equalizeRows").removeClass("highestFor-equalizeRows").addClass("resizedBy-equalizeRows");
+                        thisEntry.removeClass("resizedBy-equalizeRows").addClass("highestFor-equalizeRows");
+                    } else {
+                        thisEntry.removeClass("highestFor-equalizeRows").addClass("resizedBy-equalizeRows");
+                    }
+                });
+                e.find(".resizedBy-equalizeRows").css("height", maxh + "px");
+            }
+
+            //Below code lines for Banque Cramer only
+            var backgroundHeight = maxh + 10;
+            var thisId = $(this).attr("id");
+            if (typeof(thisId) != "undefined" && thisId.toLowerCase().indexOf("footer") != -1) {
+                backgroundHeight += 10;
+            }
+
+            $(this).find(".main-nav-background").css("height", backgroundHeight + "px");
+
+        });
+
+        rows = $(".square");
+        rows.each(function () {
+            var e = $(this);
+            var entries = e.find('.equalize-entry');
+            entries.css("height", "auto");
+            if (!sukoaUtils.isMobile()) {
+                entries.each(function () {
+                    var w = $(this).outerWidth();
+                    $(this).css("height", w + "px");
+                });
+            }
+        });
+
+    },
+
+    formErrorHandling : function(form) {
+        var f = jQuery(form);
+        f.find('.error').removeClass('error');
+        var result = true;
+        f.find(":text.required, input:file.required, input:radio.required, textarea.required").each(function () {
+            if (jQuery(this).val().trim() === "") {
+                handleValidationError(this, $(this).attr("data-errormessage"));
+                result = false;
+            }
+        });
+        f.find("select.required").each(function () {
+            if (jQuery(this).prop("selectedIndex") === 0) {
+                handleValidationError(this, $(this).attr("data-errormessage"));
+                result = false;
+            }
+        });
+        f.find(":text.email").each(function () {
+            var c = jQuery(this).val().trim();
+            if (c !== "" && !validateEmail(c)) {
+                handleValidationError(this, $(this).attr("data-errormessage"));
+                result = false;
+            }
+        });
+        f.find('.optiongroup').each(function(){
+            if(jQuery(this).parent().hasClass("required")){
+                if ( jQuery(this).find('input:radio,input:checkbox').length>0 && jQuery(this).find('input:radio:checked,input:checkbox:checked,.custom.radio.checked').length==0  ) {
+                    handleValidationError(this, $(this).attr("data-errormessage"));
+                    result = false
+                }
+            }
+        });
+
+        if(result) {
+            var commentWrapperOuter = $("#comment-wrapper-outer");
+            commentWrapperOuter.on("submit","form",function(e){
+                var theForm = $(this);
+                var url = theForm.attr("action");
+                if(url===""){url =sukoaUtils.getCurrentURL(true);}
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: theForm.serialize(),
+                    success: function(data) {
+                        theForm.slideUp();
+                        $("#comment-sent-confirm").show();
+                    }
+                });
+                e.preventDefault();
+            });
+
+        }
+        function handleValidationError(obj, message) {
+            jQuery(obj).addClass("error");
+            if ( jQuery('.error').length<=1) {
+                alert(getJsDecodedString(message));
+            }
+            return false;
+        }
+        function validateEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+        /* prevent &Uuml;mlauts, etc in js alerts.*/
+        function getJsDecodedString(raw) {
+            var div = document.createElement('div');
+            div.innerHTML = raw;
+            var decoded = div.firstChild.nodeValue;
+            return decoded;
+        }
+
+        return result;
+    },
+
+    // -------------- Url/Link Helpers --------------
+    // get param from current url
+    getParameterByName: function (name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"), results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    },
+
+    urlGetSection: function (url, index) {
+        var explodedUrl = url.split("/");
+        var section = "";
+
+        if (index == "last") {
+            section = explodedUrl[explodedUrl.length - 1];
+            if (section == "") {
+                section = explodedUrl[explodedUrl.length - 2];
+            }
+            section = section.replace(".html", "");
+        } else {
+            section = explodedUrl[index];
+        }
+        return section;
+    },
+
+    // get hash param
+    urlGetHashParam: function () {
+        var results = new RegExp('[\#]([^&#]*)').exec(window.location.hash);
+        if (results == null) {
+            return null;
+        } else {
+            return results[1] || 0;
+        }
+    },
+
+    // get current url without param
+    getCurrentURL : function(excludeParams){
+        var url = window.location.href;
+        if(excludeParams){
+            var i = url.indexOf("?");
+            if(i>-1){
+                url = url.substring(0,i);
+            }
+            var j = url.indexOf("#");
+            if(j>-1){
+                url = url.substring(0,j);
+            }
+        }
+        return url;
+    },
+    // set taget on links
+    openExternalLinksInNewWindow: function () {
+        $("#content").find("a[href^='http://']").attr("target", "_blank");
+    },
+
+    // set taget on links
+    openDownloadLinksInNewWindowMobile: function () {
+        if (sukoaUtils.checkIsMobileScreen()) {
+            $(".download a").attr("target", "_blank");
+        }
+    },
+
+    bindCacheKillerLinkFn: function () {
+        // cache killer for link element
+        $(".kclink").each(function () {
+            var $l = $(this).attr("href");
+            if ($l != undefined) {
+                if ($l.indexOf("?") == -1) {
+                    $l += "?";
+                } else {
+                    $l += "&";
+                }
+                $l += "kc=" + new Date().getTime();
+                $(this).attr("href", $l)
+            }
+        });
+    },
+
+    bindCacheKillerImgsFn: function () {
+        // cache killer for src (img, script ...) element
+        $(".kcsrc").each(function () {
+            var $l = $(this).attr("src");
+            if ($l != undefined) {
+                if ($l.indexOf("?") == -1) {
+                    $l += "?";
+                } else {
+                    $l += "&";
+                }
+                $l += "kc=" + new Date().getTime();
+                $(this).attr("src", $l)
+            }
+        });
+    },
+
+    // mail decrypt
+    dcmadr: function (nnnn) {
+        var a = "";
+        for (i = 0, m = nnnn.length; i < m; i++) {
+            if (i % 3 == 0) {
+                a += String.fromCharCode(nnnn.substr(i, 3));
+            }
+        }
+        location.href = (a);
+    },
+
+    openInNewTab: function (selector, hrefattribute) {
+        //var links = $(selector);
+        //links.click(function (e) {
+        $("body").on("click", selector, function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $("#publish").hide();
+            $("#published").hide();
+            $("#reload").css("display", "inline-block");
+            window.open($(this).attr(hrefattribute));
+
+        });
+    },
+
+    doPublish: function(selector) {
+        $("body").on("click", selector, function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var url = sukoaUtils.getCurrentURL(false);
+            console.log(url+"&publish=true");
+            $.get(url +"&ajaxcmd=true&publish=true", function(){
+                window.location.href = url;
+            });
+        });
+    },
+
+    reloadPage: function(selector) {
+        $("body").on("click", selector, function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            window.location.reload();
+        });
+    }
+
+};

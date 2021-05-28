@@ -1,0 +1,997 @@
+sukoaProject = {
+    globalPrevTop: -1,
+    animations : [],
+    init: function () {
+        sukoaProject.collapsibleBoxes();
+        sukoaProject.instanciateSliders();
+        var $lists = $(".list");
+        if($lists.length > 0) {
+            $lists.each(function() {
+                listfunctions.init($(this));
+            })
+        }
+        sukoaProject.buildAnimationsChain();
+        sukoaProject.search();
+        sukoaProject.scrollToTop();
+
+
+    },
+
+    scrollToTop: function() {
+        var $scrollTopButton = $('#scrolltop');
+        if($scrollTopButton.length > 0) {
+            $scrollTopButton.click(function(e){
+                e.preventDefault();
+                $('body, html').animate({"scrollTop": "0"}, 400, "swing");
+            })
+        }
+    },
+
+    collapsibleBoxes: function(){
+        var $colboxs = $(".collapsible-wrapper");
+        if($colboxs.length > 0) {
+            $colboxs.click(function(){
+                if($(this).hasClass("collapsed")){
+                    $(this).find(".collapsib∑le-content").slideDown();
+                    $(this).removeClass("collapsed");
+                } else {
+                    var self = $(this);
+                    self.find(".collapsible-content").slideUp(function(){
+                        self.addClass("collapsed");
+                    });
+                }
+            })
+        }
+    },
+
+    instanciateSliders : function(){
+        var sliderwrappers = $(".swiper-container");
+        var sliders = [];
+        if(sliderwrappers.length>0){
+            sliderwrappers.each(function() {
+                var spaceBetween = 10;
+                var slidesPerView = 'auto';
+                if($(this).parent().hasClass("background-image")) {
+                    spaceBetween = 0;
+                    slidesPerView = 1;
+                } else {
+
+                }
+                sliders.push(new Swiper("#" + $(this).attr("id"), {
+                    loop: true,
+                    effect: 'slide',
+                    spaceBetween: spaceBetween,
+                    loopedSlides: 4,
+                    slidesPerView: slidesPerView,
+                    autoplay: 2000,
+                    speed: 2000,
+                    lazyLoading: true,
+                    lazyLoadingInPrevNext: true,
+                    lazyLoadingInPrevNextAmount: 4,
+                    autoplayDisableOnInteraction: false
+
+                }));
+            });
+        }
+    },
+
+    buildAnimationsChain: function() {
+
+        //branding animation
+        var $branding = $("#branding");
+        if ($branding.length > 0) {
+            sukoaProject.animations.push({
+                "name": "branding",
+                "elem": $branding,
+                "function": sukoaProject.brandingAnim,
+                "param": null,
+                "on": true
+            });
+        }
+
+
+        // fadeEffect on sections
+        var $elements = $("#main-wrapper .fade-effect");
+        $elements.each(function() {
+            sukoaProject.animations.push({
+                "name" : $(this).offset().top,
+                "elem" : $(this),
+                "function": sukoaProject.setOpacity,
+                "param": {"ratio": 0.9},
+                "on": true
+            })
+        });
+
+        if(sukoaProject.animations.length > 0) {
+            sukoaProject.globalAnimationLoop();
+        }
+    },
+
+    setOpacity: function(animation, top) {
+
+        var windowheight = window.innerHeight * animation.param.ratio;
+        var val = (animation.elem.offset().top - top) - (window.innerHeight  * (1-animation.param.ratio));
+        var opacity = 1;
+        if(val <= windowheight && val >= 0) {
+            opacity = 1 - val/(windowheight);
+        } else if(val > windowheight) {
+            opacity = 0;
+        }
+        animation.elem.css({
+            "opacity": opacity
+        });
+    },
+
+    globalAnimationLoop: function() {
+        // sukoaProject.animationFrameId = window.requestAnimationFrame(sukoaProject.globalAnimationLoop);
+
+        function loop() {
+            var top = (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
+
+            if(top > 0 && top !== sukoaProject.globalPrevTop) {
+                for(var anim in sukoaProject.animations) {
+                    var animation = sukoaProject.animations[anim];
+                    if(animation.on) {
+                        animation.function(animation, top);
+                    }
+                }
+                sukoaProject.globalPrevTop = top;
+            }
+
+            window.requestAnimationFrame(loop);
+        }
+        window.requestAnimationFrame(loop);
+    },
+
+    brandingAnim: function(animation, top) {
+        var $elem = animation.elem;
+
+        if(typeof $elem.prevTop === typeof undefined) {
+            $elem.prevTop = top;
+            $elem.prevTopPos = 0;
+        }
+        var newtoppos = $elem.prevTopPos + $elem.prevTop - top;
+        // scroll to top
+        if($elem.prevTop > top) {
+            if(newtoppos > 0) {
+                newtoppos = 0;
+            }
+            // scroll to bottom
+        } else if($elem.prevTop < top) {
+            if(newtoppos < -$elem.outerHeight(true)) {
+                newtoppos = -$elem.outerHeight(true);
+            }
+        }
+
+        if($elem.prevTopPos !== newtoppos) {
+            $elem.css({"transform": "translate3d(0,"+newtoppos + "px,0)"});
+            $elem.prevTopPos = newtoppos;
+        }
+
+        $elem.prevTop = top;
+
+    },
+
+    search: function() {
+        var $metaSearch = $(".metasearch");
+        $metaSearch.each(function () {
+            var self = $(this);
+            var $inputSearch = self.find("input");
+            $inputSearch.keyup(function(e){
+                if(e.keyCode == 13 && $inputSearch.val().localeCompare("") !== 0) {
+                    window.location.href = self.attr("data-target") + "?search="+$inputSearch.val();
+                }
+            });
+        });
+
+
+        var $mobmetaSearch = $(".mob-metanav .metasearch");
+
+        var $mobsearchlink = $mobmetaSearch.find("a");
+
+        $mobsearchlink.click(function(e){
+            e.preventDefault();
+            var $inputSearch = $mobmetaSearch.find("input");
+            var param = "";
+
+            if($inputSearch.val().localeCompare("") !== 0) {
+                param = "?search="+$inputSearch.val();
+            }
+            window.location.href = $mobsearchlink.attr("href") + param;
+        });
+
+        var $collapsibles = $(".collapsible");
+        if($collapsibles.length > 0) {
+            $collapsibles.each(function() {
+                var $collapsible = $(this);
+                var $wrapper = $(this).closest(".col-wrap");
+                var $button = $wrapper.find(".button");
+                $button.click(function() {
+                    if($wrapper.hasClass("open")) {
+                        $collapsible.slideUp();
+                        $wrapper.removeClass("open");
+                    } else {
+                        $collapsible.slideDown();
+                        $wrapper.addClass("open");
+                    }
+                })
+
+            })
+        }
+    }
+
+};
+
+homeSlider =  {
+    $wrapper: null,
+    $arrows: null,
+    slides: [],
+    index: 0,
+    lastIndex: -1,
+    touchX0: null,
+    touchX: null,
+    freeze: false,
+    init: function() {
+
+        if(document.getElementsByClassName("homeslider").length > 0) {
+            homeSlider.$wrapper = $("#outer-container");
+            homeSlider.$arrows = homeSlider.$wrapper.find(".arrow");
+            var $links = $(".homeslider").find("p");
+            if($links.length > 0) {
+                homeSlider.$wrapper.addClass("slide");
+                var count = 0;
+                //home page has index 0
+                homeSlider.slides.push({"$elem": homeSlider.$wrapper.find(".slide.active"), "url": sukoaUtils.getCurrentURL(), "index": 0});
+
+                $links.each(function() {
+                    count++;
+                    homeSlider.getAndDisplayPageSlide($(this).text(), count);
+
+                }).promise().done(function(){
+                    // homeSlider.$slides = homeSlider.$wrapper.find(".slide");
+                    homeSlider.initArrows();
+                    window.addEventListener('touchstart', homeSlider.initTouchSwipes, false);
+                    window.addEventListener('touchmove', homeSlider.handleTouchSwipes, false);
+                    window.addEventListener('touchend', homeSlider.validateTouchSwipes, false);
+                    window.addEventListener('keydown', homeSlider.handleKeyPress, false);
+
+                });
+                homeSlider.lastIndex = count;
+            }
+        }
+
+    },
+
+    handleKeyPress: function(e) {
+        if(e.keyCode === 39) {
+            homeSlider.showNextPage();
+        } else if(e.keyCode === 37) {
+            homeSlider.showPreviousPage();
+        }
+    },
+
+    initTouchSwipes: function(e) {
+        if(e.target.className !== "home-anchor-link") {
+            homeSlider.touchX0 = e.touches[0].clientX;
+        }
+    },
+
+    handleTouchSwipes: function(e) {
+        homeSlider.touchX = e.touches[0].clientX;
+    },
+
+    validateTouchSwipes: function(e) {
+        if(homeSlider.touchX0 !== null && homeSlider.touchX !== null) {
+          if(homeSlider.touchX + 100 < homeSlider.touchX0) {
+              homeSlider.showPreviousPage();
+          } else if(homeSlider.touchX - 100 > homeSlider.touchX0) {
+              homeSlider.showNextPage();
+          }
+        }
+
+      homeSlider.resetTouchXYs();
+    },
+
+    resetTouchXYs: function() {
+      homeSlider.touchX = null;
+      homeSlider.touchX0 = null;
+
+    },
+
+    getAndDisplayPageSlide: function(url, index) {
+        $.get(url, function(data) {
+            var $innerwrapper = $('<div>' + data + '</div>').find(".inner-container");
+            homeSlider.$wrapper.prepend($innerwrapper.addClass("slide").attr("data-index", index));
+            homeSlider.slides.push({"$elem": $innerwrapper, "url": url, "index": index});
+        })
+    },
+
+    initArrows: function(){
+        homeSlider.$arrows.show();
+        homeSlider.$arrows.click(function() {
+            if($(this).hasClass("left-arrow")) {
+                homeSlider.showPreviousPage();
+            } else {
+                homeSlider.showNextPage();
+            }
+        })
+    },
+
+    findSlideWithIndex: function(index) {
+       var slide = null;
+
+       for(var i in homeSlider.slides) {
+           if(homeSlider.slides[i].index * 1 === index) {
+               slide = homeSlider.slides[i];
+           }
+       }
+        return slide;
+    },
+
+    showPreviousPage: function() {
+        if(!homeSlider.freeze) {
+            var targetIndex = homeSlider.index - 1 < 0 ? homeSlider.lastIndex : homeSlider.index -1;
+            var target = homeSlider.findSlideWithIndex(targetIndex);
+            homeSlider.hidePage(homeSlider.findSlideWithIndex(homeSlider.index), target);
+            homeSlider.index = targetIndex;
+        }
+    },
+
+    showNextPage: function() {
+        if(!homeSlider.freeze) {
+            var targetIndex = (homeSlider.index + 1) % (homeSlider.lastIndex + 1);
+            var target = homeSlider.findSlideWithIndex(targetIndex);
+            homeSlider.hidePage(homeSlider.findSlideWithIndex(homeSlider.index), target);
+            homeSlider.index = targetIndex;
+        }
+    },
+
+    showPage: function(slide) {
+
+        slide.$elem.fadeIn(700, "swing", function() {
+          slide.$elem.addClass("active");
+          homeSlider.freeze = false;
+        });
+        homeSlider.moveArrows(slide);
+        history.pushState(null, null, slide.url);
+        sukoaProject.instanciateSliders();
+    },
+
+    hidePage: function(slide, nextToShow) {
+        homeSlider.freeze = true;
+        slide.$elem.fadeOut(700, function() {
+          slide.$elem.removeClass("active");
+          homeSlider.showPage(nextToShow)
+        });
+    },
+
+    moveArrows: function(slide) {
+        homeSlider.$arrows.css("top", slide.$elem.find(".page-title").outerHeight(true) / 2 - 30);
+    }
+
+
+};
+
+
+navigation = {
+    init : function(){
+        navigation.bind();
+        navigation.subnav();
+
+        navigation.homeAnchorsNav();
+
+    },
+    bind : function(){
+        var body = $('body');
+        // fix resize bug
+        var burger = $(".c-hamburger");
+        var menu = $("#main-nav");
+        burger.click(function(){
+            var t = $(this);
+
+            (t.hasClass("is-active") === true) ? t.removeClass("is-active") : t.addClass("is-active");
+
+            if(t.hasClass("is-active")){
+                menu.show();
+                menu.fadeTo( 200 , 1);
+                $("body").addClass("navexp");
+                var htmlString = $('footer .links').html();
+                $('#footerLinks').html( htmlString );
+
+            }else{
+                menu.fadeTo( 200 , 0, function() {
+                    // Animation complete.
+                    menu.hide();
+
+                    $("body").removeClass("navexp");
+                });
+            }
+            $(document).mouseup(function(e) {
+                if(burger.hasClass("is-active") && !$("#branding").is(e.target) && $("#branding").has(e.target).length === 0) {
+                    (t.hasClass("is-active") === true) ? t.removeClass("is-active") : t.addClass("is-active");
+                    menu.fadeTo( 200 , 0, function() {
+                        // Animation complete.
+                        menu.hide();
+                        $("body").removeClass("navexp");
+                    });
+                    $("body").unbind("click");
+
+                    $(document).unbind("mouseup");
+                }
+            })
+        });
+
+    },
+
+    subnav: function() {
+        var $mainli = $('#mob-main-nav').find(".main-ul>li");
+        var $mainlisa = $mainli.find(">a");
+
+        $mainli.each(function () {
+            if ($(this).hasClass("active")) {
+                $(this).addClass("opened");
+            }
+        });
+
+        $mainlisa.click(function (e) {
+            var $li = $(this).parent("li");
+            if (!$li.hasClass("opened") && $li.hasClass("hasSublevels")) {
+                e.preventDefault();
+                var $openedli = $('#mob-main-nav').find(".main-ul>li");
+                $openedli.removeClass("opened");
+                $openedli.find("ul").slideUp();
+                $li.find("ul").slideDown();
+                $li.addClass("opened");
+            }
+        })
+    },
+
+    homeAnchorsNav: function() {
+        var $homeAnchors = $(".home-anchor-link");
+
+        var param = sukoaUtils.getParameterByName("gt");
+        if(param.length > 0) {
+            var $paramTarget = $("#"+param);
+            if($paramTarget.length > 0) {
+                $("body, html").animate({scrollTop: ($paramTarget.offset().top - 100) + "px"}, 0);
+
+            }
+        }
+
+        $homeAnchors.click(function(e){
+            e.preventDefault();
+            var currentUrl = sukoaUtils.getCurrentURL();
+            var targetUrl = $(this).attr("href");
+            var targetPage = targetUrl;
+            var indexOfHTag = targetPage.indexOf("#");
+            var $targetComponent = null;
+
+            if(indexOfHTag !== -1) {
+                targetPage = targetUrl.substring(0, targetUrl.indexOf("#"));
+                $targetComponent = $(targetUrl.substring(indexOfHTag));
+            }
+
+            if(currentUrl.indexOf(targetPage) !== -1) {
+                //on the home page
+                if($targetComponent.length > 0) {
+                    $("body, html").animate({"scrollTop": ($targetComponent.offset().top - 100)*1 + "px"}, "slow", "swing")
+                }
+
+            } else {
+                // not on the home page
+                var newTargetUrl = targetPage;
+                if(indexOfHTag !== -1 && indexOfHTag < targetUrl.length - 1) {
+                    newTargetUrl += "?gt=" + targetUrl.substring(indexOfHTag + 1)
+                }
+                window.location.href = newTargetUrl;
+            }
+
+        })
+    }
+};
+
+
+listfunctions = {
+    init: function($list) {
+        var ml =  listfunctions.list($list);
+        ml.checkParameters();
+    },
+
+    list: function($list) {
+        function List ($list) {
+            this.$list = $list;
+            this.$elementsWrapper = $list.find(".elements-wrapper");
+            this.$elements = this.$elementsWrapper.find(".filterable");
+            this.$noresult = this.$elementsWrapper.find(".noresult");
+            this.elementsState = [];
+            this.$filtersWrapper = $list.find(".filters-wrapper");
+            this.$resetButton = this.$filtersWrapper.find(".reset-filters");
+            this.$filters = this.$filtersWrapper.find(".filter");
+            this.filtersState = [];
+            this.$scrollables = this.$list.find(".scrollable");
+            this.$nbVisible = this.$resetButton.find(".count .visible");
+            this.$projectDetail = $('#projectdetail');
+            this.visibleDetailElementNb = null;
+            this.documentTitle = (typeof basePageTitle !== 'undefined') ? basePageTitle : document.title
+            this.init();
+        }
+
+        List.prototype.checkParameters = function() {
+            var url = window.location.href;
+            if(url.indexOf("?") !== -1) {
+                url = url.split("?")[1];
+                var keyValArray = url.split('&');
+                for(var kv in keyValArray) {
+                    var param = keyValArray[kv].split("=")[0];
+                    var value = keyValArray[kv].split("=")[1];
+                    param = param.replace("__and__", "&");
+                    param = param.replace("__ae__", "&");
+                    param = param.replace("__oe__", "&");
+                    param = param.replace("__ue__", "&");
+                    value = value.replace("__and__", "&");
+                    value = value.replace("__ae__", "ä");
+                    value = value.replace("__oe__", "ö");
+                    value = value.replace("__ue__", "ü");
+
+                    if (typeof value !== "undefined" && typeof param !== "undefined" && value !== "" && param !== "") {
+                        for (var f in this.filtersState) {
+                            if (this.filtersState[f].name === param) {
+                                this.filtersState[f].setValueFromParam(value);
+                            }
+                        }
+                    }
+                }
+                this.applyFilters();
+            }
+        };
+
+        List.prototype.centerList = function() {
+            var self = this.$list;
+            this.$list.click(function() {
+               $("body, html").animate({scrollTop: (self.offset().top - 150) + "px"}, 500);
+               $(this).unbind("click");
+            });
+        };
+
+        List.prototype.addFilters = function() {
+            listfunctions.filter(this, this.$filters);
+        };
+
+        List.prototype.addElements = function() {
+            listfunctions.element(this, this.$elements);
+        };
+
+        List.prototype.applyFilters = function() {
+            var count = 0;
+            for (var e in this.elementsState) {
+                if (this.elementsState[e].filterMe()) {
+                    count++;
+                }
+            }
+
+            if(count === 0 && !this.$noresult.hasClass("active")) {
+                this.$noresult.addClass("active");
+            } else if(count > 0 && this.$noresult.hasClass("active")) {
+                this.$noresult.removeClass("active");
+            }
+
+            this.$nbVisible.empty().append(count);
+
+            if (this.checkActiveFilter()) {
+                this.$resetButton.addClass("active");
+            } else {
+                this.$resetButton.removeClass("active");
+            }
+        };
+
+        List.prototype.checkActiveFilter = function() {
+            var active = false;
+            for(var f in this.filtersState) {
+              if(this.filtersState[f].isActive()) {
+                  active = true;
+                  break;
+              }
+            }
+            return active;
+        };
+
+        List.prototype.resetButton = function() {
+            var self = this;
+            this.$resetButton.click(function() {
+                for(var f in self.filtersState) {
+                    self.filtersState[f].reset();
+                }
+                self.applyFilters();
+            });
+        };
+
+        List.prototype.handleScrolls = function() {
+            this.$scrollables.each(function(){
+                $(this).on("mousewheel DOMMouseScroll", function(e){
+                    e.preventDefault();
+                    if(typeof this.prevDist === typeof undefined) {
+                        this.prevDist = 0;
+                    }
+                    calculateDistance(this,e);
+                });
+
+                if(!sukoaUtils.isMobile()) {
+                    $("#projectdetail").on("mousewheel DOMMouseScroll", function(e){
+                        e.preventDefault();
+                        calculateDistance(this, e);
+                    });
+                }
+
+                function calculateDistance($elem,e) {
+                    var eorig = e.originalEvent;
+                    var distance = (-eorig.wheelDelta || eorig.detail) * 1;
+                    $elem.scrollTop += (distance >= 0 ? 1 : -1) * 30;
+                }
+            });
+        };
+
+
+        List.prototype.projectDetail = function() {
+            var self = this;
+            if(this.$projectDetail.hasClass("showProject")) {
+                this.$projectDetail.addClass("active").focus();
+                $("body").addClass("fixed");
+            }
+            if(this.$elements.length > 0) {
+                var url = sukoaUtils.getCurrentURL(false);
+                this.$elements.click(function(e) {
+                    e.preventDefault();
+                    self.$elements.removeClass("active");
+                    $(this).addClass("active");
+                    self.visibleDetailElementNb = $(this).attr("data-number");
+                    var number = self.visibleDetailElementNb.replace("/", "-");
+                    var urlArray = url.split("?");
+                    var geturl = urlArray[0];
+
+                    var selector = "~"+number+"~.html?ajax=true";
+                    if(geturl.indexOf("~") !== -1) {
+                        geturl = geturl.substring(0, geturl.indexOf("~"))+ selector;
+                    } else {
+                        geturl = geturl.replace(".html", selector);
+                    }
+
+                    if(urlArray.length > 1) {
+                        geturl += "&" + urlArray[1];
+                    }
+
+                    $.get(geturl, function(data) {
+                        geturl = geturl.toLowerCase().replace("ajax=true", "").replace("?&", "?");
+                        geturl = geturl.indexOf("?") === geturl.length - 1 ? geturl.substr(0, geturl.indexOf("?")) : geturl;
+                        history.pushState(null, null, geturl);
+                        var $dispDiv = $("<div>"+data+"</div>").find("#projvue").html();
+                        self.triggerProjDetail($dispDiv);
+                    })
+                })
+            }
+            this.$projectDetail.find(".projbutton").click(function(e) {
+                e.preventDefault(); e.stopPropagation();
+                self.closeProjectDetail();
+            });
+
+            window.addEventListener("keyup", function(e){
+                if(e.keyCode=== 27 && self.$projectDetail.hasClass("active")) {
+                    self.closeProjectDetail();
+                }
+                if(e.keyCode === 39) {
+                    self.showPreviousProject();
+                } else if(e.keyCode === 37) {
+                    self.showNextProject();
+                }
+            })
+        };
+
+        List.prototype.showNextProject = function() {
+            console.log('show prev proj');
+            this.findNextActiveEntry(true);
+        };
+
+         List.prototype.showPreviousProject = function() {
+             console.log('show next proj');
+             this.findNextActiveEntry();
+
+        };
+
+         List.prototype.findNextActiveEntry = function(backward) {
+             if(this.visibleDetailElementNb) {
+                 var index = null;
+                 for(var i = 0; i < this.elementsState.length; i++) {
+                    if(this.elementsState[i].id === this.visibleDetailElementNb) {
+                        index = i;
+                        break;
+                    }
+                 }
+
+                 if(backward) {
+                     for(var i = index-1; i >= 0; i--) {
+                         if(!this.elementsState[i].filteredOut) {
+                             this.elementsState[i].$elem.click();
+                             break;
+                         }
+                     }
+                 } else {
+                     for(var i = index+1; i < this.elementsState.length ; i++) {
+                         if(!this.elementsState[i].filteredOut) {
+                             this.elementsState[i].$elem.click();
+                             break;
+                         }
+                     }
+                 }
+             }
+         };
+
+        List.prototype.closeProjectDetail = function() {
+            this.$projectDetail.removeClass('active');
+            this.visibleDetailElementNb = null;
+            $('body').removeClass('fixed');
+            var url = sukoaUtils.getCurrentURL(false);
+            url = url.replace(/~[^~]*~/, '');
+            document.title = this.documentTitle
+            history.pushState(null, null, url);
+        };
+
+        List.prototype.triggerProjDetail = function($dispDiv) {
+            this.$projectDetail.find("#projvue").empty().append($dispDiv);
+            this.$projectDetail.animate({"scrollTop": 0}, 0);
+            this.$projectDetail.addClass("active").focus();
+            this.documentTitle = document.title
+            document.title = $($dispDiv).html() + " | " + baseSiteTitle
+            $("body").addClass("fixed");
+        };
+
+        List.prototype.init = function() {
+            this.addFilters();
+            this.addElements();
+            this.resetButton();
+            // this.handleScrolls();
+            this.centerList();
+            this.projectDetail();
+        };
+        return new List($list);
+    },
+
+    filter: function(listObj, $filters) {
+        function Filter($filter) {
+            this.$filter = $filter;
+            this.$options = $filter.find("li.option");
+            this.activeValues = [];
+            this.name = $filter.attr("data-name");
+            this.isOpen = false;
+            this.$nb = this.$filter.find(".nb");
+            this.$selectAllbtn = this.$filter.find(".select-all");
+            this.$deselectAllbtn = this.$filter.find(".deselect-all");
+            this.init();
+        }
+
+        Filter.list = listObj;
+
+        Filter.prototype.changeStateListener = function() {
+            var self = this;
+
+            self.$options.click(function(e) {
+                e.stopPropagation();
+                self.selectOption($(this), true);
+            });
+        };
+
+        Filter.prototype.selectOption = function($option, applyFilters) {
+            var newVal = $option.attr("data-value");
+            if(newVal !== undefined) {
+                if(!$option.hasClass("active")) {
+                    $option.addClass("active");
+                    this.activeValues.push(newVal);
+
+                } else {
+                    var index;
+                    for(index in this.activeValues) {
+                        if(newVal === this.activeValues[index]) {
+                            $option.removeClass("active");
+                            break;
+                        }
+                    }
+                    this.activeValues.splice(index, 1);
+                }
+                this.updateState();
+                if(applyFilters) {
+                    Filter.list.applyFilters();
+                }
+            }
+        };
+
+        Filter.prototype.setValueFromParam = function(newVal) {
+            if(typeof newVal !== "undefinded" && newVal !== "") {
+                var $option = this.$filter.find('li.option[data-value="'+newVal+'"]');
+                if($option.length > 0) {
+                    this.selectOption($option, false);
+                }
+            }
+        };
+
+        Filter.prototype.selectAll = function() {
+            var self = this;
+            this.$selectAllbtn.click(function(e){
+                e.stopPropagation();
+                if($(this).hasClass("active")) {
+                    self.$options.each(function() {
+                        if(!$(this).hasClass("active")) {
+                            var newVal = $(this).attr("data-value");
+                            if(newVal !== undefined) {
+                                $(this).addClass("active");
+                                self.activeValues.push(newVal);
+                            }
+                        }
+                    });
+                    self.updateState();
+                    Filter.list.applyFilters();
+                }
+            })
+        };
+
+        Filter.prototype.deselectAll = function() {
+            var self = this;
+            this.$deselectAllbtn.click(function(e){
+                e.stopPropagation();
+                if($(this).hasClass("active")) {
+                    self.$options.each(function() {
+                        if($(this).hasClass("active")) {
+                            $(this).removeClass("active");
+                        }
+                    });
+                    self.activeValues = [];
+                    self.updateState();
+                    Filter.list.applyFilters();
+                }
+            })
+        };
+
+        Filter.prototype.updateState = function() {
+            this.$nb.text(this.isActive() ? this.activeValues.length : "");
+
+            if(this.activeValues.length > 0) {
+                this.$deselectAllbtn.addClass("active");
+
+            } else if (this.$deselectAllbtn.hasClass("active")) {
+                this.$deselectAllbtn.removeClass("active");
+            }
+            if(this.activeValues.length >= this.$options.length && this.$selectAllbtn.hasClass("active")) {
+                this.$selectAllbtn.removeClass("active");
+            } else if(!this.$selectAllbtn.hasClass("active")) {
+                this.$selectAllbtn.addClass("active");
+            }
+        };
+
+        Filter.prototype.isActive = function() {
+            var isactive = this.activeValues.length > 0;
+            if(!isactive && this.$filter.hasClass("active")) {
+                this.$filter.removeClass("active");
+            } else if(isactive && !this.$filter.hasClass("active")) {
+                this.$filter.addClass("active");
+            }
+            return isactive
+        };
+
+        Filter.prototype.filterElement = function(element) {
+
+            if(this.activeValues.length === 0) {
+                return true;
+            } else {
+                return $.inArray(element.values[this.name], this.activeValues) !== -1;
+            }
+        };
+
+        Filter.prototype.init = function() {
+            this.openClose();
+            this.changeStateListener();
+            this.selectAll();
+            this.deselectAll();
+            var timer;
+            var self = this;
+            this.$filter.mouseleave(function() {
+                timer = window.setTimeout(function(){
+                    self.close();
+                }, 7000);
+            });
+
+            this.$filter.mouseenter(function() {
+                window.clearTimeout(timer);
+            });
+        };
+
+        Filter.prototype.open = function() {
+            this.$filter.addClass("open");
+            this.isOpen = true;
+        };
+
+        Filter.prototype.close = function() {
+
+            this.$filter.removeClass("open");
+            this.isOpen = false;
+        };
+
+        Filter.prototype.openClose = function() {
+            var self = this;
+            this.$filter.click(function() {
+              if(self.isOpen) {
+                  self.close();
+              } else {
+                  self.open();
+              }
+            })
+        };
+
+        Filter.prototype.reset = function() {
+            this.close();
+            if(this.isActive()) {
+                this.$filter.find("li.active").removeClass("active");
+                this.$filter.removeClass("active");
+                this.activeValues = [];
+            }
+        };
+
+        $filters.each(function() {
+            listObj.filtersState.push(new Filter($(this)));
+        });
+    },
+
+    element: function(listObj, $elements) {
+        function Element($elem) {
+            this.$elem = $elem;
+            this.values = {};
+            this.filteredOut = false;
+            this.id = this.$elem.attr('data-number');
+            this.setValues();
+        }
+
+        Element.list = listObj;
+
+        Element.prototype.setValues = function(){
+            for(var f in Element.list.filtersState) {
+                if(typeof this.$elem.attr("data-"+Element.list.filtersState[f].name) !== typeof undefined) {
+                    this.values[Element.list.filtersState[f].name] = this.$elem.attr("data-"+Element.list.filtersState[f].name);
+                }
+            }
+        };
+
+        Element.prototype.filterMe = function() {
+            var stayIn = true;
+
+            for(var f in Element.list.filtersState) {
+                stayIn = stayIn && Element.list.filtersState[f].filterElement(this);
+                if(!stayIn) {
+                    break;
+                }
+            }
+            if(stayIn) {
+                this.popIn()
+            } else {
+                this.popOut();
+            }
+            return stayIn;
+        };
+
+        Element.prototype.popIn = function() {
+            this.$elem.fadeIn();
+            this.filteredOut = false;
+        };
+
+        Element.prototype.popOut = function() {
+            this.$elem.fadeOut();
+            this.filteredOut = true;
+        };
+
+        $elements.each(function() {
+            listObj.elementsState.push(new Element($(this)));
+        });
+    }
+};
+
+
+$(document).ready(function () {
+    sukoaProject.init();
+    navigation.init();
+    homeSlider.init();
+});
