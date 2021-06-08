@@ -1,0 +1,11 @@
+Séparer slide objectifs et stl
+Bien expliquer le objectifs le principe d'impression / Pourquoi un besoin de supports
+définition slicer
+Mieux expliquer l'api (programmer script pour automatiser)
+Mieux expliquer les paramètres avec des images
+
+
+Futur :
+Voir le logiciel
+Retrait des supports
+intelligence
