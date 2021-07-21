@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>205</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_rotation_offset
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>70</x>
+      <y>10</y>
+      <w>180</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Button_Operations
+--
+m_to_mm()
+volume()
+triangulate()
+
+select_faces(maxAngle : float)
+generate_support()
+manifold()
+regenerate_bottom()
+generate_socle(socleSize : float)
+
+separate_faces()
+select_area(minArea : float)
+
+select_resize_all()
+select_resize(minAngleZ : float, maxAngleZ : float)
+resize()
+invert_selection()
+delete_selection()
+fill()
+
+add_lattice()
+select_lattice()
+delete_lattice()
+
+voxel()
+decimate()
+validate()
+remesh_blocks()
+validate_blocks()
+
+measure_distance()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_volume
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>345</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_generation
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_area
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>625</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_resize
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1045</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_measure
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_lattice
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>905</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_remesh
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>30</y>
+      <w>245</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>main
+--
+volume : FloatProperty
+angle_x : FloatProperty
+angle_y : FloatProperty
+angle_z : FloatProperty
+offset : FloatProperty
+max_angle : FloatProperty
+socle_size : FloatProperty
+min_area : FloatProperty
+min_angle_z : FloatProperty
+max_angle_z : FloatProperty
+resize : FloatProperty
+sizeX : FloatProperty
+sizeY : FloatProperty
+oldResizeX : FloatProperty
+oldResizeY : FloatProperty
+lattice_size_x : FloatProperty
+lattice_size_y : FloatProperty
+lattice_size_z : FloatProperty
+lattice_offset_x : FloatProperty
+lattice_offset_y : FloatProperty
+lattice_offset_z : FloatProperty
+voxel_size : FloatProperty
+decimate_ratio : FloatProperty
+level_blocks : IntProperty
+distance : FloatProperty
+--
+register()
+unregister()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>345</x>
+      <y>145</y>
+      <w>105</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Get_And_Set_Offset
+--
+get_offset(self)
+set_offset(self, value)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>345</x>
+      <y>55</y>
+      <w>105</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>Get_And_Set_Rotation
+--
+get_angle_x(self)
+set_angle_x(self, value)
+
+get_angle_y(self)
+set_angle_y(self, value)
+
+get_angle_z(self)
+set_angle_z(self, value)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>345</x>
+      <y>185</y>
+      <w>105</w>
+      <h>85</h>
+    </coordinates>
+    <panel_attributes>Get_And_Set_Lattice
+--
+get_lattice_size_x(self)
+set_lattice_size_x(self, value)
+
+get_lattice_size_y(self)
+set_lattice_size_y(self, value)
+
+get_lattice_size_z(self)
+set_lattice_size_z(self, value)
+
+get_lattice_offset_x(self)
+set_lattice_offset_x(self, value)
+
+get_lattice_offset_y(self)
+set_lattice_offset_y(self, value)
+
+get_lattice_offset_z(self)
+set_lattice_offset_z(self, value)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>215</y>
+      <w>105</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>STL_FILE_import
+--
+bl_idname : string
+bl_label : string
+bl_options : string
+--
+invoke(self, context, event)
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>765</x>
+      <y>150</y>
+      <w>105</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>STL_FILE_export
+--
+bl_idname : string
+bl_label : string
+bl_options : string
+--
+invoke(self, context, event)
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>65</x>
+      <y>300</y>
+      <w>105</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>BUTTON_PT_import_export
+--
+bl_idname : string
+bl_label : string
+bl_space_type : string
+bl_region_type : string
+bl_category : string
+--
+draw(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_m_to_mm
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_import_object
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>560</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_export_object
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>620</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_triangulate
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_select_faces
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_generate_support
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_generate_mold
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>560</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_manifold
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>620</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_regenerate_bottom
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>680</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_generate_socle
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_generate_area
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_separate_faces
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_select_area
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_select_resize_all
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_select_resize
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_resize
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>560</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_invert_selection
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>620</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_delete_selection
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>680</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_fill
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_add_lattice
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_select_lattice
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>750</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_delete_lattice
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_voxel
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>440</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_decimate
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>500</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_validate
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>560</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_remesh_blocks
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>890</x>
+      <y>620</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_validate_blocks
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1030</x>
+      <y>380</y>
+      <w>135</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>BUTTON_OT_button_measure_distance
+--
+bl_idname : string
+bl_label : string
+bl_description : string
+--
+execute(self, context)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
