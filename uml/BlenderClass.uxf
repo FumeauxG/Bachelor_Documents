@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>4</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>205</x>
+      <x>252</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_rotation_offset
 --
@@ -17,16 +17,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>70</x>
-      <y>10</y>
-      <w>180</w>
-      <h>270</h>
+      <x>564</x>
+      <y>32</y>
+      <w>144</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>Button_Operations
 --
@@ -60,16 +61,18 @@ validate()
 remesh_blocks()
 validate_blocks()
 
-measure_distance()</panel_attributes>
+measure_distance()
+
+bg=#3c7a00</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>108</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_volume
 --
@@ -77,16 +80,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
+      <x>384</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_generation
 --
@@ -96,16 +100,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>485</x>
+      <x>516</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_area
 --
@@ -115,16 +120,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>625</x>
+      <x>648</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_resize
 --
@@ -134,16 +140,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1045</x>
+      <x>1044</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_measure
 --
@@ -153,16 +160,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=pink</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
+      <x>780</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_lattice
 --
@@ -172,16 +180,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>905</x>
+      <x>912</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_remesh
 --
@@ -191,16 +200,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>485</x>
-      <y>30</y>
-      <w>245</w>
-      <h>240</h>
+      <x>108</x>
+      <y>56</y>
+      <w>196</w>
+      <h>192</h>
     </coordinates>
     <panel_attributes>main
 --
@@ -231,30 +241,33 @@ level_blocks : IntProperty
 distance : FloatProperty
 --
 register()
-unregister()</panel_attributes>
+unregister()
+bg=light_gray
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>145</y>
-      <w>105</w>
-      <h>35</h>
+      <x>392</x>
+      <y>136</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>Get_And_Set_Offset
 --
 get_offset(self)
-set_offset(self, value)</panel_attributes>
+set_offset(self, value)
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>55</y>
-      <w>105</w>
-      <h>85</h>
+      <x>392</x>
+      <y>56</y>
+      <w>84</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>Get_And_Set_Rotation
 --
@@ -265,16 +278,17 @@ get_angle_y(self)
 set_angle_y(self, value)
 
 get_angle_z(self)
-set_angle_z(self, value)</panel_attributes>
+set_angle_z(self, value)
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>185</y>
-      <w>105</w>
-      <h>85</h>
+      <x>392</x>
+      <y>180</y>
+      <w>84</w>
+      <h>68</h>
     </coordinates>
     <panel_attributes>Get_And_Set_Lattice
 --
@@ -294,16 +308,17 @@ get_lattice_offset_y(self)
 set_lattice_offset_y(self, value)
 
 get_lattice_offset_z(self)
-set_lattice_offset_z(self, value)</panel_attributes>
+set_lattice_offset_z(self, value)
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>215</y>
-      <w>105</w>
-      <h>60</h>
+      <x>796</x>
+      <y>200</y>
+      <w>84</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>STL_FILE_import
 --
@@ -312,16 +327,17 @@ bl_label : string
 bl_options : string
 --
 invoke(self, context, event)
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>765</x>
-      <y>150</y>
-      <w>105</w>
-      <h>60</h>
+      <x>796</x>
+      <y>128</y>
+      <w>84</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>STL_FILE_export
 --
@@ -330,16 +346,17 @@ bl_label : string
 bl_options : string
 --
 invoke(self, context, event)
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>65</x>
+      <x>120</x>
       <y>300</y>
-      <w>105</w>
-      <h>70</h>
+      <w>84</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>BUTTON_PT_import_export
 --
@@ -349,16 +366,17 @@ bl_space_type : string
 bl_region_type : string
 bl_category : string
 --
-draw(self, context)</panel_attributes>
+draw(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>108</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_m_to_mm
 --
@@ -366,16 +384,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
+      <x>108</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_import_object
 --
@@ -383,16 +402,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>560</y>
-      <w>135</w>
-      <h>55</h>
+      <x>108</x>
+      <y>548</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_export_object
 --
@@ -400,16 +420,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>620</y>
-      <w>135</w>
-      <h>55</h>
+      <x>108</x>
+      <y>596</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_triangulate
 --
@@ -417,16 +438,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=red</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>372</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_select_faces
 --
@@ -434,16 +456,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>372</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_generate_support
 --
@@ -451,16 +474,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
+      <x>372</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_generate_mold
 --
@@ -468,16 +492,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>560</y>
-      <w>135</w>
-      <h>55</h>
+      <x>372</x>
+      <y>548</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_manifold
 --
@@ -485,16 +510,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>620</y>
-      <w>135</w>
-      <h>55</h>
+      <x>372</x>
+      <y>596</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_regenerate_bottom
 --
@@ -502,16 +528,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
-      <y>680</y>
-      <w>135</w>
-      <h>55</h>
+      <x>372</x>
+      <y>644</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_generate_socle
 --
@@ -519,16 +546,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=green</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>504</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_generate_area
 --
@@ -536,16 +564,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>504</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_separate_faces
 --
@@ -553,16 +582,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>504</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_select_area
 --
@@ -570,16 +600,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=yellow</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>636</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_select_resize_all
 --
@@ -587,16 +618,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>636</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_select_resize
 --
@@ -604,16 +636,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
+      <x>636</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_resize
 --
@@ -621,16 +654,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>560</y>
-      <w>135</w>
-      <h>55</h>
+      <x>636</x>
+      <y>548</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_invert_selection
 --
@@ -638,16 +672,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>620</y>
-      <w>135</w>
-      <h>55</h>
+      <x>636</x>
+      <y>596</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_delete_selection
 --
@@ -655,16 +690,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>680</y>
-      <w>135</w>
-      <h>55</h>
+      <x>636</x>
+      <y>644</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_fill
 --
@@ -672,16 +708,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>768</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_add_lattice
 --
@@ -689,16 +726,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>768</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_select_lattice
 --
@@ -706,16 +744,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>750</x>
+      <x>768</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_delete_lattice
 --
@@ -723,16 +762,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=magenta</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>890</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>900</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_voxel
 --
@@ -740,16 +780,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>890</x>
-      <y>440</y>
-      <w>135</w>
-      <h>55</h>
+      <x>900</x>
+      <y>452</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_decimate
 --
@@ -757,16 +798,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>890</x>
+      <x>900</x>
       <y>500</y>
-      <w>135</w>
-      <h>55</h>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_validate
 --
@@ -774,16 +816,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>890</x>
-      <y>560</y>
-      <w>135</w>
-      <h>55</h>
+      <x>900</x>
+      <y>548</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_remesh_blocks
 --
@@ -791,16 +834,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>890</x>
-      <y>620</y>
-      <w>135</w>
-      <h>55</h>
+      <x>900</x>
+      <y>596</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_validate_blocks
 --
@@ -808,16 +852,17 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=cyan</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1030</x>
-      <y>380</y>
-      <w>135</w>
-      <h>55</h>
+      <x>1032</x>
+      <y>404</y>
+      <w>108</w>
+      <h>44</h>
     </coordinates>
     <panel_attributes>BUTTON_OT_button_measure_distance
 --
@@ -825,7 +870,600 @@ bl_idname : string
 bl_label : string
 bl_description : string
 --
-execute(self, context)</panel_attributes>
+execute(self, context)
+bg=pink</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>96</x>
+      <y>388</y>
+      <w>1068</w>
+      <h>308</h>
+    </coordinates>
+    <panel_attributes>Buttons</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>96</x>
+      <y>284</y>
+      <w>1068</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Menus</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>352</y>
+      <w>84</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;790.0;190.0;790.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>152</x>
+      <y>352</y>
+      <w>84</w>
+      <h>276</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;670.0;190.0;670.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>548</x>
+      <y>352</y>
+      <w>84</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;430.0;190.0;430.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>352</y>
+      <w>84</w>
+      <h>324</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;790.0;190.0;790.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>812</x>
+      <y>352</y>
+      <w>84</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;430.0;190.0;430.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>352</y>
+      <w>84</w>
+      <h>276</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;670.0;190.0;670.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1076</x>
+      <y>352</y>
+      <w>84</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>160.0;190.0;190.0;190.0;190.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1004</x>
+      <y>568</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1004</x>
+      <y>520</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1004</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1004</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>872</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>872</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>616</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>568</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>520</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>608</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>616</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>568</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>520</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>212</x>
+      <y>568</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>212</x>
+      <y>520</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>212</x>
+      <y>472</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>212</x>
+      <y>424</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>28</x>
+      <y>404</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+Operator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>64</x>
+      <y>412</y>
+      <w>40</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>28</x>
+      <y>300</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+Panel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>64</x>
+      <y>308</y>
+      <w>40</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>272</y>
+      <w>1160</w>
+      <h>436</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>16</x>
+      <y>12</y>
+      <w>308</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>__init__.py</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>372</x>
+      <y>12</y>
+      <w>124</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>getter_and_setter.py</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>544</x>
+      <y>12</y>
+      <w>184</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>operations.py</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>776</x>
+      <y>12</y>
+      <w>172</w>
+      <h>248</h>
+    </coordinates>
+    <panel_attributes>operations.py</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>892</x>
+      <y>176</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+Operator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>876</x>
+      <y>160</y>
+      <w>44</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;40.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>892</x>
+      <y>128</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+ImportHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>876</x>
+      <y>136</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>892</x>
+      <y>224</y>
+      <w>40</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+ImportHelper</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>876</x>
+      <y>232</y>
+      <w>24</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>876</x>
+      <y>196</y>
+      <w>44</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;90.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>136</y>
+      <w>36</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>70.0;340.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>724</x>
+      <y>136</y>
+      <w>36</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>70.0;340.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>136</y>
+      <w>36</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>70.0;340.0;70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>8</x>
+      <y>4</y>
+      <w>1180</w>
+      <h>712</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>712</y>
+      <w>12</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>724</y>
+      <w>1160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>
+Blender API
+bg=gray
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
