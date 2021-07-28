@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>9</zoom_level>
+  <zoom_level>3</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>9</x>
-      <y>1053</y>
-      <w>144</w>
-      <h>72</h>
+      <x>396</x>
+      <y>477</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Fichier 3D de la 
 pièce à imprimer</panel_attributes>
@@ -16,10 +16,10 @@ pièce à imprimer</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
-      <y>936</y>
-      <w>351</w>
-      <h>171</h>
+      <x>441</x>
+      <y>438</y>
+      <w>117</w>
+      <h>57</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>370.0;10.0;130.0;10.0;130.0;170.0;10.0;170.0</additional_attributes>
@@ -27,10 +27,10 @@ pièce à imprimer</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>477</x>
-      <y>909</y>
-      <w>144</w>
-      <h>72</h>
+      <x>552</x>
+      <y>429</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Impression 3D
 de la pièce</panel_attributes>
@@ -39,10 +39,10 @@ de la pièce</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>1080</y>
-      <w>126</w>
-      <h>171</h>
+      <x>477</x>
+      <y>486</y>
+      <w>42</w>
+      <h>57</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>120.0;170.0;10.0;170.0;10.0;10.0</additional_attributes>
@@ -50,10 +50,10 @@ de la pièce</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>360</x>
-      <y>1197</y>
-      <w>144</w>
-      <h>72</h>
+      <x>513</x>
+      <y>525</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Génération du fichier 
 3D du support
@@ -63,10 +63,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>603</x>
-      <y>1197</y>
-      <w>144</w>
-      <h>72</h>
+      <x>594</x>
+      <y>525</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Fabrication du support
 bg=yellow</panel_attributes>
@@ -75,10 +75,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
-      <y>1224</y>
-      <w>126</w>
-      <h>27</h>
+      <x>558</x>
+      <y>534</y>
+      <w>42</w>
+      <h>9</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
@@ -86,10 +86,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>738</x>
-      <y>1089</y>
-      <w>234</w>
-      <h>162</h>
+      <x>639</x>
+      <y>489</y>
+      <w>78</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>240.0;10.0;120.0;10.0;120.0;160.0;10.0;160.0</additional_attributes>
@@ -97,10 +97,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>603</x>
-      <y>0</y>
-      <w>27</w>
-      <h>765</h>
+      <x>594</x>
+      <y>126</y>
+      <w>9</w>
+      <h>255</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
@@ -108,10 +108,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>342</x>
-      <y>9</y>
-      <w>27</w>
-      <h>765</h>
+      <x>507</x>
+      <y>129</y>
+      <w>9</w>
+      <h>255</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;830.0;10.0;10.0</additional_attributes>
@@ -119,10 +119,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>612</x>
-      <y>936</y>
-      <w>252</w>
-      <h>180</h>
+      <x>597</x>
+      <y>438</y>
+      <w>84</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>260.0;180.0;260.0;10.0;10.0;10.0</additional_attributes>
@@ -130,10 +130,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
-      <y>666</y>
-      <w>135</w>
-      <h>27</h>
+      <x>657</x>
+      <y>348</y>
+      <w>45</w>
+      <h>9</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
@@ -141,10 +141,10 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>954</x>
-      <y>1062</y>
-      <w>144</w>
-      <h>72</h>
+      <x>711</x>
+      <y>480</y>
+      <w>48</w>
+      <h>24</h>
     </coordinates>
     <panel_attributes>Frittage de la pièce
 soutenue par le support</panel_attributes>

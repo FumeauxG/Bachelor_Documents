@@ -5,7 +5,7 @@
     <id>UMLSpecialState</id>
     <coordinates>
       <x>714</x>
-      <y>228</y>
+      <y>168</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>228</y>
+      <y>168</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -27,7 +27,7 @@
     <id>UMLState</id>
     <coordinates>
       <x>684</x>
-      <y>258</y>
+      <y>198</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -38,7 +38,7 @@
     <id>UMLState</id>
     <coordinates>
       <x>684</x>
-      <y>414</y>
+      <y>354</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -50,7 +50,7 @@ on the center</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>438</y>
+      <y>378</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -61,7 +61,7 @@ on the center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>684</x>
-      <y>468</y>
+      <y>408</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -75,7 +75,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>492</y>
+      <y>432</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -87,7 +87,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>594</y>
+      <y>534</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -98,7 +98,7 @@ if scale == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>684</x>
-      <y>624</y>
+      <y>564</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -109,7 +109,7 @@ if scale == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>714</x>
-      <y>678</y>
+      <y>618</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -120,7 +120,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>648</y>
+      <y>588</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -131,7 +131,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>282</y>
+      <y>222</y>
       <w>96</w>
       <h>42</h>
     </coordinates>
@@ -144,7 +144,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>708</x>
-      <y>312</y>
+      <y>252</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -155,7 +155,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>672</x>
-      <y>360</y>
+      <y>300</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -167,7 +167,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>330</y>
+      <y>270</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -179,7 +179,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>384</y>
+      <y>324</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -191,7 +191,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>318</y>
+      <y>258</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -203,7 +203,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>708</x>
-      <y>522</y>
+      <y>462</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -214,7 +214,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>672</x>
-      <y>570</y>
+      <y>510</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -225,7 +225,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>540</y>
+      <y>480</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -237,7 +237,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>714</x>
-      <y>528</y>
+      <y>468</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -249,7 +249,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1092</x>
-      <y>204</y>
+      <y>144</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -260,7 +260,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>204</y>
+      <y>144</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -271,7 +271,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1062</x>
-      <y>234</y>
+      <y>174</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -282,7 +282,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1062</x>
-      <y>504</y>
+      <y>444</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -294,7 +294,7 @@ on the center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1062</x>
-      <y>762</y>
+      <y>702</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -307,7 +307,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>786</y>
+      <y>726</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -319,7 +319,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>888</y>
+      <y>828</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -330,7 +330,7 @@ if scale == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1062</x>
-      <y>918</y>
+      <y>858</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -341,7 +341,7 @@ if scale == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1092</x>
-      <y>972</y>
+      <y>912</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -352,7 +352,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>942</y>
+      <y>882</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -363,7 +363,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>258</y>
+      <y>198</y>
       <w>96</w>
       <h>42</h>
     </coordinates>
@@ -376,7 +376,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1086</x>
-      <y>288</y>
+      <y>228</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -387,7 +387,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1050</x>
-      <y>336</y>
+      <y>276</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -399,7 +399,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>306</y>
+      <y>246</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -411,7 +411,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>294</y>
+      <y>234</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -423,7 +423,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1086</x>
-      <y>816</y>
+      <y>756</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -434,7 +434,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1050</x>
-      <y>864</y>
+      <y>804</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -445,7 +445,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>834</y>
+      <y>774</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -457,7 +457,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>822</y>
+      <y>762</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -469,7 +469,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>360</y>
+      <y>300</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -481,7 +481,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1086</x>
-      <y>390</y>
+      <y>330</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -492,7 +492,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1062</x>
-      <y>438</y>
+      <y>378</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -504,7 +504,7 @@ in 'x','y','z' axis</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>408</y>
+      <y>348</y>
       <w>72</w>
       <h>42</h>
     </coordinates>
@@ -517,7 +517,7 @@ if q,a,y pressed
     <id>Relation</id>
     <coordinates>
       <x>1128</x>
-      <y>372</y>
+      <y>312</y>
       <w>42</w>
       <h>96</h>
     </coordinates>
@@ -528,7 +528,7 @@ if q,a,y pressed
     <id>Relation</id>
     <coordinates>
       <x>1038</x>
-      <y>396</y>
+      <y>336</y>
       <w>72</w>
       <h>120</h>
     </coordinates>
@@ -540,7 +540,7 @@ if '1' pressed</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>528</y>
+      <y>468</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -553,7 +553,7 @@ if '1' pressed</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1086</x>
-      <y>558</y>
+      <y>498</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -564,7 +564,7 @@ if '1' pressed</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1104</x>
-      <y>606</y>
+      <y>546</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -576,7 +576,7 @@ in center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1020</x>
-      <y>606</y>
+      <y>546</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -588,7 +588,7 @@ in center</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>564</y>
+      <y>504</y>
       <w>66</w>
       <h>54</h>
     </coordinates>
@@ -603,7 +603,7 @@ if '1' pressed
     <id>Relation</id>
     <coordinates>
       <x>1104</x>
-      <y>564</y>
+      <y>504</y>
       <w>96</w>
       <h>54</h>
     </coordinates>
@@ -618,7 +618,7 @@ if '2' pressed
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>630</y>
+      <y>570</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -630,7 +630,7 @@ if '2' pressed
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1086</x>
-      <y>660</y>
+      <y>600</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -641,7 +641,7 @@ if '2' pressed
     <id>UMLState</id>
     <coordinates>
       <x>1104</x>
-      <y>708</y>
+      <y>648</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -654,7 +654,7 @@ cube or cylinder</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1020</x>
-      <y>708</y>
+      <y>648</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -667,7 +667,7 @@ cube or cylinder</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>660</y>
+      <y>600</y>
       <w>54</w>
       <h>66</h>
     </coordinates>
@@ -684,7 +684,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1104</x>
-      <y>660</y>
+      <y>600</y>
       <w>84</w>
       <h>66</h>
     </coordinates>
@@ -701,7 +701,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1050</x>
-      <y>630</y>
+      <y>570</y>
       <w>60</w>
       <h>36</h>
     </coordinates>
@@ -714,7 +714,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1008</x>
-      <y>642</y>
+      <y>582</y>
       <w>60</w>
       <h>96</h>
     </coordinates>
@@ -727,7 +727,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1134</x>
-      <y>642</y>
+      <y>582</y>
       <w>60</w>
       <h>96</h>
     </coordinates>
@@ -740,7 +740,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1092</x>
-      <y>672</y>
+      <y>612</y>
       <w>66</w>
       <h>108</h>
     </coordinates>
@@ -761,7 +761,7 @@ if '1' pressed
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1362</x>
-      <y>102</y>
+      <y>42</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -772,7 +772,7 @@ if '1' pressed
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>102</y>
+      <y>42</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -783,7 +783,7 @@ if '1' pressed
     <id>UMLState</id>
     <coordinates>
       <x>1332</x>
-      <y>132</y>
+      <y>72</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -794,7 +794,7 @@ if '1' pressed
     <id>UMLState</id>
     <coordinates>
       <x>1332</x>
-      <y>402</y>
+      <y>342</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -806,7 +806,7 @@ on the center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1530</x>
-      <y>336</y>
+      <y>276</y>
       <w>84</w>
       <h>30</h>
     </coordinates>
@@ -819,7 +819,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>360</y>
+      <y>300</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -831,7 +831,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>462</y>
+      <y>402</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -842,7 +842,7 @@ if scale == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1536</x>
-      <y>492</y>
+      <y>432</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -853,7 +853,7 @@ if scale == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1566</x>
-      <y>546</y>
+      <y>486</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -864,7 +864,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>516</y>
+      <y>456</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -875,7 +875,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>156</y>
+      <y>96</y>
       <w>96</w>
       <h>42</h>
     </coordinates>
@@ -888,7 +888,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1356</x>
-      <y>186</y>
+      <y>126</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -899,7 +899,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1320</x>
-      <y>234</y>
+      <y>174</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -911,7 +911,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>204</y>
+      <y>144</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -923,7 +923,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>192</y>
+      <y>132</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -935,7 +935,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1560</x>
-      <y>390</y>
+      <y>330</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -946,7 +946,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1524</x>
-      <y>438</y>
+      <y>378</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -957,7 +957,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>408</y>
+      <y>348</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -969,7 +969,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>396</y>
+      <y>336</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -981,7 +981,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>258</y>
+      <y>198</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -993,7 +993,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1356</x>
-      <y>288</y>
+      <y>228</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -1004,7 +1004,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1332</x>
-      <y>336</y>
+      <y>276</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1016,7 +1016,7 @@ in 'x','y','z' axis</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>306</y>
+      <y>246</y>
       <w>72</w>
       <h>42</h>
     </coordinates>
@@ -1029,7 +1029,7 @@ if q,a,y pressed
     <id>Relation</id>
     <coordinates>
       <x>1398</x>
-      <y>270</y>
+      <y>210</y>
       <w>42</w>
       <h>96</h>
     </coordinates>
@@ -1040,7 +1040,7 @@ if q,a,y pressed
     <id>Relation</id>
     <coordinates>
       <x>1308</x>
-      <y>294</y>
+      <y>234</y>
       <w>72</w>
       <h>120</h>
     </coordinates>
@@ -1052,7 +1052,7 @@ if '1' pressed</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1362</x>
-      <y>114</y>
+      <y>54</y>
       <w>222</w>
       <h>354</h>
     </coordinates>
@@ -1065,7 +1065,7 @@ if '1' pressed</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1560</x>
-      <y>132</y>
+      <y>72</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -1076,7 +1076,7 @@ if '1' pressed</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1578</x>
-      <y>180</y>
+      <y>120</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1088,7 +1088,7 @@ in center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1494</x>
-      <y>180</y>
+      <y>120</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1100,7 +1100,7 @@ in center</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1524</x>
-      <y>138</y>
+      <y>78</y>
       <w>66</w>
       <h>54</h>
     </coordinates>
@@ -1115,7 +1115,7 @@ if '1' pressed
     <id>Relation</id>
     <coordinates>
       <x>1578</x>
-      <y>138</y>
+      <y>78</y>
       <w>96</w>
       <h>54</h>
     </coordinates>
@@ -1130,7 +1130,7 @@ if '2' pressed
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>204</y>
+      <y>144</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -1142,7 +1142,7 @@ if '2' pressed
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1560</x>
-      <y>234</y>
+      <y>174</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -1153,7 +1153,7 @@ if '2' pressed
     <id>UMLState</id>
     <coordinates>
       <x>1578</x>
-      <y>282</y>
+      <y>222</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1166,7 +1166,7 @@ cube or cylinder</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1494</x>
-      <y>282</y>
+      <y>222</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1179,7 +1179,7 @@ cube or cylinder</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1524</x>
-      <y>234</y>
+      <y>174</y>
       <w>54</w>
       <h>66</h>
     </coordinates>
@@ -1196,7 +1196,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1578</x>
-      <y>234</y>
+      <y>174</y>
       <w>84</w>
       <h>66</h>
     </coordinates>
@@ -1213,7 +1213,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1524</x>
-      <y>204</y>
+      <y>144</y>
       <w>60</w>
       <h>36</h>
     </coordinates>
@@ -1226,7 +1226,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1482</x>
-      <y>216</y>
+      <y>156</y>
       <w>60</w>
       <h>96</h>
     </coordinates>
@@ -1239,7 +1239,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1608</x>
-      <y>216</y>
+      <y>156</y>
       <w>60</w>
       <h>96</h>
     </coordinates>
@@ -1252,7 +1252,7 @@ pressed
     <id>Relation</id>
     <coordinates>
       <x>1566</x>
-      <y>246</y>
+      <y>186</y>
       <w>66</w>
       <h>108</h>
     </coordinates>
@@ -1273,7 +1273,7 @@ if '1' pressed
     <id>UMLSpecialState</id>
     <coordinates>
       <x>42</x>
-      <y>120</y>
+      <y>60</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -1284,7 +1284,7 @@ if '1' pressed
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>120</y>
+      <y>60</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1295,7 +1295,7 @@ if '1' pressed
     <id>UMLState</id>
     <coordinates>
       <x>12</x>
-      <y>150</y>
+      <y>90</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1306,7 +1306,7 @@ if '1' pressed
     <id>UMLState</id>
     <coordinates>
       <x>12</x>
-      <y>306</y>
+      <y>246</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1318,7 +1318,7 @@ on the center</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>126</y>
+      <y>66</y>
       <w>162</w>
       <h>246</h>
     </coordinates>
@@ -1329,7 +1329,7 @@ on the center</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>156</x>
-      <y>150</y>
+      <y>90</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1343,7 +1343,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>186</x>
-      <y>174</y>
+      <y>114</y>
       <w>60</w>
       <h>42</h>
     </coordinates>
@@ -1355,7 +1355,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>186</x>
-      <y>276</y>
+      <y>216</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1366,7 +1366,7 @@ if scale == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>156</x>
-      <y>306</y>
+      <y>246</y>
       <w>72</w>
       <h>30</h>
     </coordinates>
@@ -1377,7 +1377,7 @@ if scale == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>186</x>
-      <y>360</y>
+      <y>300</y>
       <w>12</w>
       <h>12</h>
     </coordinates>
@@ -1388,7 +1388,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>186</x>
-      <y>330</y>
+      <y>270</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1399,7 +1399,7 @@ if scale == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>174</y>
+      <y>114</y>
       <w>96</w>
       <h>42</h>
     </coordinates>
@@ -1412,7 +1412,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>36</x>
-      <y>204</y>
+      <y>144</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -1423,7 +1423,7 @@ dimY &lt; 5 or dimZ &lt; 5</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>0</x>
-      <y>252</y>
+      <y>192</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -1435,7 +1435,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>222</y>
+      <y>162</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1447,7 +1447,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>276</y>
+      <y>216</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1459,7 +1459,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>42</x>
-      <y>210</y>
+      <y>150</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
@@ -1471,7 +1471,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>180</x>
-      <y>204</y>
+      <y>144</y>
       <w>24</w>
       <h>24</h>
     </coordinates>
@@ -1482,7 +1482,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>144</x>
-      <y>252</y>
+      <y>192</y>
       <w>96</w>
       <h>30</h>
     </coordinates>
@@ -1493,7 +1493,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>186</x>
-      <y>222</y>
+      <y>162</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -1505,7 +1505,7 @@ dimXYZ = dimXYZ*10</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>186</x>
-      <y>210</y>
+      <y>150</y>
       <w>78</w>
       <h>96</h>
     </coordinates>
