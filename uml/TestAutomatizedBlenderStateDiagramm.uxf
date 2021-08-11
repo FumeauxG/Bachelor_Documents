@@ -29,7 +29,7 @@ fontsize=10
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1512</x>
-      <y>99</y>
+      <y>333</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -40,7 +40,7 @@ fontsize=10
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>99</y>
+      <y>333</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -51,7 +51,7 @@ fontsize=10
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>144</y>
+      <y>378</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -62,7 +62,7 @@ fontsize=10
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>225</y>
+      <y>459</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -74,7 +74,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>180</y>
+      <y>414</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -85,7 +85,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>261</y>
+      <y>495</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -96,7 +96,7 @@ on the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>306</y>
+      <y>540</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -108,7 +108,7 @@ bg=yellow</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>342</y>
+      <y>576</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -119,7 +119,7 @@ bg=yellow</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>387</y>
+      <y>621</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -131,7 +131,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>423</y>
+      <y>657</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -142,7 +142,7 @@ selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>468</y>
+      <y>702</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -154,7 +154,7 @@ bissect support</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>504</y>
+      <y>738</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -165,7 +165,7 @@ bissect support</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1467</x>
-      <y>549</y>
+      <y>783</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -176,7 +176,7 @@ bissect support</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1512</x>
-      <y>630</y>
+      <y>864</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -187,7 +187,7 @@ bissect support</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1512</x>
-      <y>585</y>
+      <y>819</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -198,7 +198,7 @@ bissect support</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1737</x>
-      <y>108</y>
+      <y>342</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -209,7 +209,7 @@ bissect support</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1737</x>
-      <y>108</y>
+      <y>342</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -220,7 +220,7 @@ bissect support</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1692</x>
-      <y>153</y>
+      <y>387</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -231,7 +231,7 @@ bissect support</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1692</x>
-      <y>234</y>
+      <y>468</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -243,7 +243,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1737</x>
-      <y>189</y>
+      <y>423</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -254,7 +254,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1737</x>
-      <y>270</y>
+      <y>504</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -265,7 +265,7 @@ on the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1692</x>
-      <y>315</y>
+      <y>549</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -278,7 +278,7 @@ bg=yellow</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1845</x>
-      <y>234</y>
+      <y>468</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -290,7 +290,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1890</x>
-      <y>270</y>
+      <y>504</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -301,7 +301,7 @@ selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1845</x>
-      <y>315</y>
+      <y>549</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -313,7 +313,7 @@ bissect support</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1890</x>
-      <y>351</y>
+      <y>585</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -324,7 +324,7 @@ bissect support</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1845</x>
-      <y>396</y>
+      <y>630</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -335,7 +335,7 @@ bissect support</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1890</x>
-      <y>477</y>
+      <y>711</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -346,7 +346,7 @@ bissect support</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1890</x>
-      <y>432</y>
+      <y>666</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -357,7 +357,7 @@ bissect support</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1692</x>
-      <y>396</y>
+      <y>630</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -369,7 +369,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1737</x>
-      <y>351</y>
+      <y>585</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -380,7 +380,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1737</x>
-      <y>189</y>
+      <y>423</y>
       <w>180</w>
       <h>306</h>
     </coordinates>
@@ -391,7 +391,7 @@ bg=orange</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1305</x>
-      <y>99</y>
+      <y>333</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -402,7 +402,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1305</x>
-      <y>99</y>
+      <y>333</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -413,7 +413,7 @@ bg=orange</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1260</x>
-      <y>144</y>
+      <y>378</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -424,7 +424,7 @@ bg=orange</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1260</x>
-      <y>306</y>
+      <y>540</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -435,7 +435,7 @@ bg=orange</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1305</x>
-      <y>387</y>
+      <y>621</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -446,7 +446,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1305</x>
-      <y>342</y>
+      <y>576</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -457,7 +457,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1305</x>
-      <y>180</y>
+      <y>414</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -468,7 +468,7 @@ bg=orange</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1260</x>
-      <y>225</y>
+      <y>459</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -479,7 +479,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1305</x>
-      <y>261</y>
+      <y>495</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -490,7 +490,7 @@ bg=orange</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1260</x>
-      <y>720</y>
+      <y>954</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -501,7 +501,7 @@ bg=orange</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>720</y>
+      <y>954</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -512,7 +512,7 @@ bg=orange</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1215</x>
-      <y>765</y>
+      <y>999</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -523,7 +523,7 @@ bg=orange</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1215</x>
-      <y>846</y>
+      <y>1080</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -535,7 +535,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>801</y>
+      <y>1035</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -546,7 +546,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>882</y>
+      <y>1116</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -557,7 +557,7 @@ on the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1215</x>
-      <y>927</y>
+      <y>1161</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -568,7 +568,7 @@ on the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>963</y>
+      <y>1197</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -579,447 +579,12 @@ on the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1215</x>
-      <y>1008</y>
+      <y>1242</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
     <panel_attributes>Generate supports
 from faces </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1260</x>
-      <y>1044</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1215</x>
-      <y>1089</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Export support stl</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1260</x>
-      <y>1170</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1260</x>
-      <y>1125</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1422</x>
-      <y>720</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1422</x>
-      <y>720</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1377</x>
-      <y>765</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Import object stl</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1377</x>
-      <y>846</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Align the object 
-on the xy plane</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1422</x>
-      <y>801</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1422</x>
-      <y>882</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1377</x>
-      <y>927</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Select faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1422</x>
-      <y>774</y>
-      <w>180</w>
-      <h>234</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>180.0;40.0;180.0;10.0;90.0;10.0;90.0;240.0;10.0;240.0;10.0;220.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1530</x>
-      <y>810</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Generate supports
-from faces </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1575</x>
-      <y>846</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1530</x>
-      <y>891</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Export support stl</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1575</x>
-      <y>981</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1575</x>
-      <y>927</y>
-      <w>27</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1773</x>
-      <y>702</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1773</x>
-      <y>702</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1728</x>
-      <y>747</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Separate the
-selected faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1728</x>
-      <y>828</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Extrude the faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1773</x>
-      <y>783</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1773</x>
-      <y>864</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1728</x>
-      <y>909</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Bissect to the 
-xy plane</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1773</x>
-      <y>945</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1728</x>
-      <y>990</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Delete the object</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1773</x>
-      <y>1071</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1773</x>
-      <y>1026</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1953</x>
-      <y>702</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1953</x>
-      <y>702</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1908</x>
-      <y>747</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Separate the
-selected faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1908</x>
-      <y>828</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Extrude the faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1953</x>
-      <y>783</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1908</x>
-      <y>909</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Bissect to the 
-xy plane</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2061</x>
-      <y>909</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Delete the object</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>2106</x>
-      <y>990</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2106</x>
-      <y>945</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1953</x>
-      <y>783</y>
-      <w>180</w>
-      <h>225</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>180.0;50.0;180.0;10.0;90.0;10.0;90.0;230.0;10.0;230.0;10.0;190.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1260</x>
-      <y>1278</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1041,6 +606,441 @@ xy plane</panel_attributes>
       <w>108</w>
       <h>45</h>
     </coordinates>
+    <panel_attributes>Export support stl</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1404</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1359</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1422</x>
+      <y>954</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1422</x>
+      <y>954</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1377</x>
+      <y>999</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Import object stl</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1377</x>
+      <y>1080</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Align the object 
+on the xy plane</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1422</x>
+      <y>1035</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1422</x>
+      <y>1116</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1377</x>
+      <y>1161</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Select faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1422</x>
+      <y>1008</y>
+      <w>180</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;40.0;180.0;10.0;90.0;10.0;90.0;240.0;10.0;240.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1530</x>
+      <y>1044</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Generate supports
+from faces </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1575</x>
+      <y>1080</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1530</x>
+      <y>1125</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Export support stl</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1575</x>
+      <y>1215</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1575</x>
+      <y>1161</y>
+      <w>27</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1773</x>
+      <y>936</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1773</x>
+      <y>936</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1728</x>
+      <y>981</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Separate the
+selected faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1728</x>
+      <y>1062</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Extrude the faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1773</x>
+      <y>1017</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1773</x>
+      <y>1098</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1728</x>
+      <y>1143</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Bissect to the 
+xy plane</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1773</x>
+      <y>1179</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1728</x>
+      <y>1224</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Delete the object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1773</x>
+      <y>1305</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1773</x>
+      <y>1260</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1953</x>
+      <y>936</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1953</x>
+      <y>936</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1908</x>
+      <y>981</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Separate the
+selected faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1908</x>
+      <y>1062</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Extrude the faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1953</x>
+      <y>1017</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1908</x>
+      <y>1143</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Bissect to the 
+xy plane</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2061</x>
+      <y>1143</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Delete the object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>2106</x>
+      <y>1224</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2106</x>
+      <y>1179</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1953</x>
+      <y>1017</y>
+      <w>180</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;50.0;180.0;10.0;90.0;10.0;90.0;230.0;10.0;230.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1512</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>1512</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1215</x>
+      <y>1557</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
     <panel_attributes>Calculate
 the angle</panel_attributes>
     <additional_attributes/>
@@ -1049,7 +1049,7 @@ the angle</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>747</x>
-      <y>1656</y>
+      <y>1890</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1060,7 +1060,7 @@ the angle</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>792</x>
-      <y>1692</y>
+      <y>1926</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1071,7 +1071,7 @@ the angle</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>747</x>
-      <y>1737</y>
+      <y>1971</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1083,7 +1083,7 @@ xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>792</x>
-      <y>1773</y>
+      <y>2007</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1094,7 +1094,7 @@ xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>747</x>
-      <y>1818</y>
+      <y>2052</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1105,7 +1105,7 @@ xy plane</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>792</x>
-      <y>1899</y>
+      <y>2133</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1116,7 +1116,7 @@ xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>792</x>
-      <y>1854</y>
+      <y>2088</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1127,7 +1127,7 @@ xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1359</y>
+      <y>1593</y>
       <w>108</w>
       <h>63</h>
     </coordinates>
@@ -1140,7 +1140,7 @@ if angle &lt; maxAngle
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1251</x>
-      <y>1404</y>
+      <y>1638</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1151,7 +1151,7 @@ if angle &lt; maxAngle
     <id>UMLFrame</id>
     <coordinates>
       <x>1188</x>
-      <y>1548</y>
+      <y>1782</y>
       <w>162</w>
       <h>81</h>
     </coordinates>
@@ -1162,7 +1162,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1431</y>
+      <y>1665</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1173,7 +1173,7 @@ if angle &lt; maxAngle
     <id>UMLState</id>
     <coordinates>
       <x>1215</x>
-      <y>1476</y>
+      <y>1710</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1186,7 +1186,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1512</y>
+      <y>1746</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1197,7 +1197,7 @@ center of the face</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>1152</x>
-      <y>1269</y>
+      <y>1503</y>
       <w>270</w>
       <h>432</h>
     </coordinates>
@@ -1208,7 +1208,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>810</x>
-      <y>1854</y>
+      <y>2088</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1219,7 +1219,7 @@ center of the face</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1260</x>
-      <y>1674</y>
+      <y>1908</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1230,7 +1230,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>0</x>
-      <y>1341</y>
+      <y>1575</y>
       <w>126</w>
       <h>27</h>
     </coordinates>
@@ -1241,7 +1241,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1413</y>
+      <y>1647</y>
       <w>144</w>
       <h>252</h>
     </coordinates>
@@ -1252,7 +1252,7 @@ center of the face</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1260</x>
-      <y>1224</y>
+      <y>1458</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1263,7 +1263,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1620</y>
+      <y>1854</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -1274,7 +1274,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1233</y>
+      <y>1467</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1285,7 +1285,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1260</x>
-      <y>1692</y>
+      <y>1926</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1296,7 +1296,7 @@ center of the face</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1260</x>
-      <y>1737</y>
+      <y>1971</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1307,7 +1307,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1062</y>
+      <y>1296</y>
       <w>117</w>
       <h>144</h>
     </coordinates>
@@ -1318,7 +1318,7 @@ center of the face</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1611</x>
-      <y>1278</y>
+      <y>1512</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1329,7 +1329,7 @@ center of the face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1278</y>
+      <y>1512</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1340,7 +1340,7 @@ center of the face</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1566</x>
-      <y>1323</y>
+      <y>1557</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1353,7 +1353,7 @@ other face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1359</y>
+      <y>1593</y>
       <w>126</w>
       <h>63</h>
     </coordinates>
@@ -1367,7 +1367,7 @@ z center of the other face
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1602</x>
-      <y>1404</y>
+      <y>1638</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1378,7 +1378,7 @@ z center of the other face
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1431</y>
+      <y>1665</y>
       <w>135</w>
       <h>63</h>
     </coordinates>
@@ -1391,7 +1391,7 @@ if point_inside _trigon() == 1
     <id>UMLFrame</id>
     <coordinates>
       <x>1485</x>
-      <y>1269</y>
+      <y>1503</y>
       <w>324</w>
       <h>432</h>
     </coordinates>
@@ -1402,7 +1402,7 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1773</x>
-      <y>1674</y>
+      <y>1908</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1413,7 +1413,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1629</x>
-      <y>1413</y>
+      <y>1647</y>
       <w>171</w>
       <h>279</h>
     </coordinates>
@@ -1424,7 +1424,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1629</x>
-      <y>1485</y>
+      <y>1719</y>
       <w>171</w>
       <h>27</h>
     </coordinates>
@@ -1435,7 +1435,7 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1602</x>
-      <y>1476</y>
+      <y>1710</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1446,7 +1446,7 @@ if point_inside _trigon() == 1
     <id>UMLState</id>
     <coordinates>
       <x>1566</x>
-      <y>1548</y>
+      <y>1782</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1457,7 +1457,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1503</y>
+      <y>1737</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1468,7 +1468,7 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1611</x>
-      <y>1224</y>
+      <y>1458</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1479,7 +1479,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1233</y>
+      <y>1467</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1490,7 +1490,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1611</x>
-      <y>1584</y>
+      <y>1818</y>
       <w>27</w>
       <h>171</h>
     </coordinates>
@@ -1501,7 +1501,7 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1611</x>
-      <y>1737</y>
+      <y>1971</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1512,91 +1512,11 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1098</x>
-      <y>1827</y>
+      <y>2061</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1098</x>
-      <y>1827</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1053</x>
-      <y>1872</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Calculate
-the angle</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1098</x>
-      <y>1908</y>
-      <w>108</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-if angle &lt; maxAngle
-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>1089</x>
-      <y>1953</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLFrame</id>
-    <coordinates>
-      <x>1026</x>
-      <y>2106</y>
-      <w>162</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>for each other faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1098</x>
-      <y>1980</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>1053</x>
-      <y>2025</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Select the face</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -1611,10 +1531,90 @@ if angle &lt; maxAngle
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1053</x>
+      <y>2106</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Calculate
+the angle</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1098</x>
+      <y>2142</y>
+      <w>108</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+if angle &lt; maxAngle
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1089</x>
+      <y>2187</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>1026</x>
+      <y>2340</y>
+      <w>162</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>for each other faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1098</x>
+      <y>2214</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1053</x>
+      <y>2259</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Select the face</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1098</x>
+      <y>2295</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
     <id>UMLFrame</id>
     <coordinates>
       <x>990</x>
-      <y>1818</y>
+      <y>2052</y>
       <w>270</w>
       <h>432</h>
     </coordinates>
@@ -1625,7 +1625,7 @@ if angle &lt; maxAngle
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1098</x>
-      <y>2223</y>
+      <y>2457</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1636,7 +1636,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1098</x>
-      <y>1962</y>
+      <y>2196</y>
       <w>144</w>
       <h>252</h>
     </coordinates>
@@ -1647,7 +1647,7 @@ if angle &lt; maxAngle
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1098</x>
-      <y>1773</y>
+      <y>2007</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1658,7 +1658,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1098</x>
-      <y>2178</y>
+      <y>2412</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1669,7 +1669,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1098</x>
-      <y>1782</y>
+      <y>2016</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1680,7 +1680,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1098</x>
-      <y>2241</y>
+      <y>2475</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1691,7 +1691,7 @@ if angle &lt; maxAngle
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1098</x>
-      <y>2286</y>
+      <y>2520</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1702,7 +1702,7 @@ if angle &lt; maxAngle
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1449</x>
-      <y>1827</y>
+      <y>2061</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1713,7 +1713,7 @@ if angle &lt; maxAngle
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>1827</y>
+      <y>2061</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1724,7 +1724,7 @@ if angle &lt; maxAngle
     <id>UMLState</id>
     <coordinates>
       <x>1368</x>
-      <y>1863</y>
+      <y>2097</y>
       <w>180</w>
       <h>63</h>
     </coordinates>
@@ -1737,7 +1737,7 @@ of the face and the others face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>1917</y>
+      <y>2151</y>
       <w>306</w>
       <h>54</h>
     </coordinates>
@@ -1750,7 +1750,7 @@ of the face and the others face</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1440</x>
-      <y>1953</y>
+      <y>2187</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1761,7 +1761,7 @@ of the face and the others face</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>1980</y>
+      <y>2214</y>
       <w>135</w>
       <h>63</h>
     </coordinates>
@@ -1775,7 +1775,7 @@ if point_inside _trigon() == 1
     <id>UMLFrame</id>
     <coordinates>
       <x>1323</x>
-      <y>1818</y>
+      <y>2052</y>
       <w>513</w>
       <h>504</h>
     </coordinates>
@@ -1786,7 +1786,7 @@ if point_inside _trigon() == 1
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1800</x>
-      <y>2295</y>
+      <y>2529</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1797,7 +1797,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1467</x>
-      <y>1962</y>
+      <y>2196</y>
       <w>360</w>
       <h>351</h>
     </coordinates>
@@ -1808,7 +1808,7 @@ if point_inside _trigon() == 1
     <id>Relation</id>
     <coordinates>
       <x>1467</x>
-      <y>2034</y>
+      <y>2268</y>
       <w>225</w>
       <h>81</h>
     </coordinates>
@@ -1821,7 +1821,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1440</x>
-      <y>2025</y>
+      <y>2259</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1832,7 +1832,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1404</x>
-      <y>2097</y>
+      <y>2331</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1843,7 +1843,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>2052</y>
+      <y>2286</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1854,7 +1854,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1449</x>
-      <y>1773</y>
+      <y>2007</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1865,7 +1865,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>1782</y>
+      <y>2016</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -1876,7 +1876,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>2133</y>
+      <y>2367</y>
       <w>27</w>
       <h>243</h>
     </coordinates>
@@ -1887,7 +1887,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1449</x>
-      <y>2358</y>
+      <y>2592</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -1898,7 +1898,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1548</x>
-      <y>2097</y>
+      <y>2331</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1910,7 +1910,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1557</x>
-      <y>2124</y>
+      <y>2358</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1921,7 +1921,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1512</x>
-      <y>2169</y>
+      <y>2403</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1932,7 +1932,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>1620</x>
-      <y>2241</y>
+      <y>2475</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -1943,7 +1943,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1665</x>
-      <y>2196</y>
+      <y>2430</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -1954,7 +1954,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>1656</x>
-      <y>2169</y>
+      <y>2403</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -1966,7 +1966,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1575</x>
-      <y>2106</y>
+      <y>2340</y>
       <w>225</w>
       <h>81</h>
     </coordinates>
@@ -1979,7 +1979,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1449</x>
-      <y>2205</y>
+      <y>2439</y>
       <w>135</w>
       <h>117</h>
     </coordinates>
@@ -1990,7 +1990,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1557</x>
-      <y>2277</y>
+      <y>2511</y>
       <w>135</w>
       <h>45</h>
     </coordinates>
@@ -2001,7 +2001,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1683</x>
-      <y>2169</y>
+      <y>2403</y>
       <w>144</w>
       <h>36</h>
     </coordinates>
@@ -2013,7 +2013,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1953</x>
-      <y>864</y>
+      <y>1098</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2024,7 +2024,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2061</x>
-      <y>828</y>
+      <y>1062</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2035,7 +2035,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2106</x>
-      <y>864</y>
+      <y>1098</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2046,7 +2046,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2817</x>
-      <y>1206</y>
+      <y>1440</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2057,7 +2057,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1215</y>
+      <y>1449</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -2068,7 +2068,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1287</y>
+      <y>1521</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2081,7 +2081,7 @@ if point_inside _trigon() == 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2772</x>
-      <y>1251</y>
+      <y>1485</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2094,7 +2094,7 @@ for selected faces</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2673</x>
-      <y>1332</y>
+      <y>1566</y>
       <w>324</w>
       <h>333</h>
     </coordinates>
@@ -2105,7 +2105,7 @@ for selected faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2817</x>
-      <y>1341</y>
+      <y>1575</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2116,7 +2116,7 @@ for selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1350</y>
+      <y>1584</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -2127,7 +2127,7 @@ for selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2772</x>
-      <y>1386</y>
+      <y>1620</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2140,7 +2140,7 @@ non selected</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1422</y>
+      <y>1656</y>
       <w>108</w>
       <h>63</h>
     </coordinates>
@@ -2152,7 +2152,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2808</x>
-      <y>1467</y>
+      <y>1701</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -2163,7 +2163,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1494</y>
+      <y>1728</y>
       <w>27</w>
       <h>225</h>
     </coordinates>
@@ -2174,7 +2174,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2817</x>
-      <y>1782</y>
+      <y>2016</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2185,7 +2185,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2835</x>
-      <y>1476</y>
+      <y>1710</y>
       <w>90</w>
       <h>81</h>
     </coordinates>
@@ -2196,7 +2196,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2844</x>
-      <y>1539</y>
+      <y>1773</y>
       <w>135</w>
       <h>63</h>
     </coordinates>
@@ -2207,7 +2207,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2898</x>
-      <y>1593</y>
+      <y>1827</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2218,7 +2218,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2898</x>
-      <y>1638</y>
+      <y>1872</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2229,7 +2229,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2772</x>
-      <y>1701</y>
+      <y>1935</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2241,7 +2241,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2817</x>
-      <y>1737</y>
+      <y>1971</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2252,7 +2252,7 @@ informations</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>3060</x>
-      <y>1332</y>
+      <y>1566</y>
       <w>324</w>
       <h>252</h>
     </coordinates>
@@ -2263,45 +2263,12 @@ informations</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3204</x>
-      <y>1341</y>
+      <y>1575</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3204</x>
-      <y>1341</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>3204</x>
-      <y>1287</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3204</x>
-      <y>1296</y>
-      <w>27</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -2318,7 +2285,40 @@ informations</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3204</x>
-      <y>1620</y>
+      <y>1521</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3204</x>
+      <y>1530</y>
+      <w>27</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3204</x>
+      <y>1809</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>3204</x>
+      <y>1854</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2329,7 +2329,7 @@ informations</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3159</x>
-      <y>1386</y>
+      <y>1620</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2340,7 +2340,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3204</x>
-      <y>1422</y>
+      <y>1656</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2351,7 +2351,7 @@ informations</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3159</x>
-      <y>1467</y>
+      <y>1701</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2363,7 +2363,7 @@ max value in x and y</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3204</x>
-      <y>1503</y>
+      <y>1737</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2374,7 +2374,7 @@ max value in x and y</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3204</x>
-      <y>1548</y>
+      <y>1782</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2385,7 +2385,7 @@ max value in x and y</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2673</x>
-      <y>1899</y>
+      <y>2133</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2396,7 +2396,7 @@ max value in x and y</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>1908</y>
+      <y>2142</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -2407,7 +2407,7 @@ max value in x and y</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>1980</y>
+      <y>2214</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2420,7 +2420,7 @@ max value in x and y</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2628</x>
-      <y>1944</y>
+      <y>2178</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2433,7 +2433,7 @@ for selected faces</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2529</x>
-      <y>2025</y>
+      <y>2259</y>
       <w>324</w>
       <h>333</h>
     </coordinates>
@@ -2444,7 +2444,7 @@ for selected faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2673</x>
-      <y>2034</y>
+      <y>2268</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2455,7 +2455,7 @@ for selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>2043</y>
+      <y>2277</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -2466,7 +2466,7 @@ for selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2628</x>
-      <y>2079</y>
+      <y>2313</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2479,7 +2479,7 @@ selected and not hided</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>2115</y>
+      <y>2349</y>
       <w>108</w>
       <h>63</h>
     </coordinates>
@@ -2491,7 +2491,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2664</x>
-      <y>2160</y>
+      <y>2394</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -2502,7 +2502,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>2187</y>
+      <y>2421</y>
       <w>27</w>
       <h>225</h>
     </coordinates>
@@ -2513,7 +2513,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2673</x>
-      <y>2556</y>
+      <y>2790</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2524,7 +2524,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2691</x>
-      <y>2169</y>
+      <y>2403</y>
       <w>90</w>
       <h>81</h>
     </coordinates>
@@ -2535,7 +2535,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2700</x>
-      <y>2232</y>
+      <y>2466</y>
       <w>135</w>
       <h>63</h>
     </coordinates>
@@ -2546,7 +2546,7 @@ if grow_faces == set()</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>2286</y>
+      <y>2520</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2557,7 +2557,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2754</x>
-      <y>2331</y>
+      <y>2565</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2568,7 +2568,7 @@ if grow_faces == set()</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2628</x>
-      <y>2475</y>
+      <y>2709</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2580,7 +2580,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>2511</y>
+      <y>2745</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2591,7 +2591,7 @@ informations</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2916</x>
-      <y>2025</y>
+      <y>2259</y>
       <w>333</w>
       <h>396</h>
     </coordinates>
@@ -2602,7 +2602,7 @@ informations</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3060</x>
-      <y>2034</y>
+      <y>2268</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2613,7 +2613,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2034</y>
+      <y>2268</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2624,7 +2624,7 @@ informations</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3060</x>
-      <y>1980</y>
+      <y>2214</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2635,7 +2635,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>1989</y>
+      <y>2223</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -2646,7 +2646,7 @@ informations</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2412</y>
+      <y>2646</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2657,7 +2657,7 @@ informations</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3060</x>
-      <y>2457</y>
+      <y>2691</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2668,7 +2668,7 @@ informations</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3015</x>
-      <y>2079</y>
+      <y>2313</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2679,7 +2679,7 @@ informations</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3015</x>
-      <y>2313</y>
+      <y>2547</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2691,7 +2691,7 @@ max value in x and y</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2349</y>
+      <y>2583</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2702,7 +2702,7 @@ max value in x and y</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3060</x>
-      <y>2394</y>
+      <y>2628</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2713,7 +2713,7 @@ max value in x and y</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2115</y>
+      <y>2349</y>
       <w>126</w>
       <h>63</h>
     </coordinates>
@@ -2726,7 +2726,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3051</x>
-      <y>2160</y>
+      <y>2394</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -2737,7 +2737,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2187</y>
+      <y>2421</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2749,7 +2749,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLState</id>
     <coordinates>
       <x>3015</x>
-      <y>2232</y>
+      <y>2466</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2760,7 +2760,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2268</y>
+      <y>2502</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2772,7 +2772,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>3078</x>
-      <y>2169</y>
+      <y>2403</y>
       <w>126</w>
       <h>81</h>
     </coordinates>
@@ -2783,7 +2783,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLState</id>
     <coordinates>
       <x>3132</x>
-      <y>2232</y>
+      <y>2466</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2794,7 +2794,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLState</id>
     <coordinates>
       <x>2628</x>
-      <y>2394</y>
+      <y>2628</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2805,7 +2805,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>2673</x>
-      <y>2430</y>
+      <y>2664</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2817,7 +2817,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>3060</x>
-      <y>2268</y>
+      <y>2502</y>
       <w>144</w>
       <h>126</h>
     </coordinates>
@@ -2828,7 +2828,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLSpecialState</id>
     <coordinates>
       <x>180</x>
-      <y>765</y>
+      <y>999</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2839,7 +2839,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>765</y>
+      <y>999</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2850,7 +2850,7 @@ if angle &lt; maxAngleZ &amp;&amp;
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>810</y>
+      <y>1044</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2863,7 +2863,7 @@ and oldResizeY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>891</y>
+      <y>1125</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2875,7 +2875,7 @@ with the inverses</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>846</y>
+      <y>1080</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2886,7 +2886,7 @@ with the inverses</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>927</y>
+      <y>1161</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2897,7 +2897,7 @@ with the inverses</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>972</y>
+      <y>1206</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2909,7 +2909,7 @@ scaleX and scaleY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>1206</y>
+      <y>1440</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2921,7 +2921,7 @@ oldResizeY = scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1242</y>
+      <y>1476</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2932,7 +2932,7 @@ oldResizeY = scaleY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>1287</y>
+      <y>1521</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -2944,7 +2944,7 @@ with scaleX and scaleY</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>180</x>
-      <y>1368</y>
+      <y>1602</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -2955,7 +2955,7 @@ with scaleX and scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1323</y>
+      <y>1557</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -2966,7 +2966,7 @@ with scaleX and scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1008</y>
+      <y>1242</y>
       <w>90</w>
       <h>63</h>
     </coordinates>
@@ -2979,7 +2979,7 @@ if scaleX &lt;= 0 ||
     <id>UMLSpecialState</id>
     <coordinates>
       <x>171</x>
-      <y>1053</y>
+      <y>1287</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -2990,7 +2990,7 @@ if scaleX &lt;= 0 ||
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1080</y>
+      <y>1314</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3001,7 +3001,7 @@ if scaleX &lt;= 0 ||
     <id>UMLState</id>
     <coordinates>
       <x>135</x>
-      <y>1125</y>
+      <y>1359</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3013,7 +3013,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>180</x>
-      <y>1161</y>
+      <y>1395</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3024,7 +3024,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>666</x>
-      <y>828</y>
+      <y>1062</y>
       <w>117</w>
       <h>144</h>
     </coordinates>
@@ -3035,7 +3035,7 @@ scaleY = 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>504</x>
-      <y>765</y>
+      <y>999</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3046,7 +3046,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>504</x>
-      <y>765</y>
+      <y>999</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3057,7 +3057,7 @@ scaleY = 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>459</x>
-      <y>810</y>
+      <y>1044</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3070,7 +3070,7 @@ and oldResizeY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>459</x>
-      <y>891</y>
+      <y>1125</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3082,7 +3082,7 @@ with the inverses</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>504</x>
-      <y>846</y>
+      <y>1080</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3093,7 +3093,7 @@ with the inverses</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>504</x>
-      <y>927</y>
+      <y>1161</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3104,7 +3104,7 @@ with the inverses</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>459</x>
-      <y>972</y>
+      <y>1206</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3116,7 +3116,7 @@ scaleX and scaleY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>621</x>
-      <y>972</y>
+      <y>1206</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3128,7 +3128,7 @@ oldResizeY = scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>666</x>
-      <y>1008</y>
+      <y>1242</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3139,7 +3139,7 @@ oldResizeY = scaleY</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>621</x>
-      <y>1053</y>
+      <y>1287</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3151,7 +3151,7 @@ with scaleX and scaleY</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>666</x>
-      <y>1134</y>
+      <y>1368</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3162,7 +3162,7 @@ with scaleX and scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>666</x>
-      <y>1089</y>
+      <y>1323</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3173,7 +3173,7 @@ with scaleX and scaleY</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>504</x>
-      <y>774</y>
+      <y>1008</y>
       <w>297</w>
       <h>297</h>
     </coordinates>
@@ -3185,7 +3185,7 @@ r1=if scaleX &lt;= 0 || 	scaleY &lt;= 0</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>657</x>
-      <y>819</y>
+      <y>1053</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
@@ -3196,7 +3196,7 @@ r1=if scaleX &lt;= 0 || 	scaleY &lt;= 0</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>666</x>
-      <y>846</y>
+      <y>1080</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3207,7 +3207,7 @@ r1=if scaleX &lt;= 0 || 	scaleY &lt;= 0</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>621</x>
-      <y>891</y>
+      <y>1125</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3219,7 +3219,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>666</x>
-      <y>927</y>
+      <y>1161</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3230,7 +3230,7 @@ scaleY = 1</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2250</x>
-      <y>2637</y>
+      <y>2871</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3241,7 +3241,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>2646</y>
+      <y>2880</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -3252,7 +3252,7 @@ scaleY = 1</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>2709</y>
+      <y>2943</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -3265,7 +3265,7 @@ scaleY = 1</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2205</x>
-      <y>2673</y>
+      <y>2907</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3278,7 +3278,7 @@ of the object</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2106</x>
-      <y>2763</y>
+      <y>2997</y>
       <w>324</w>
       <h>486</h>
     </coordinates>
@@ -3289,7 +3289,7 @@ of the object</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2250</x>
-      <y>2772</y>
+      <y>3006</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3300,7 +3300,7 @@ of the object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>2781</y>
+      <y>3015</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -3311,7 +3311,7 @@ of the object</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2205</x>
-      <y>2817</y>
+      <y>3051</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3322,12 +3322,23 @@ of the object</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>2853</y>
+      <y>3087</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>2250</x>
+      <y>3690</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
@@ -3341,15 +3352,119 @@ of the object</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLSpecialState</id>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2205</x>
+      <y>3609</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Calculate the area and
+select the faces when
+the area &gt; areaMin</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>3222</y>
-      <w>18</w>
-      <h>18</h>
+      <y>3645</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
-    <panel_attributes>type=final</panel_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2205</x>
+      <y>3528</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Unhide all the faces</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2250</x>
+      <y>3564</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2250</x>
+      <y>3168</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2205</x>
+      <y>3132</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Select all linked faces
+of the selection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2205</x>
+      <y>3213</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Add a new column to
+loops with the selection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2205</x>
+      <y>3294</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Hide selected faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2250</x>
+      <y>3249</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2250</x>
+      <y>3330</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -3359,9 +3474,8 @@ of the object</panel_attributes>
       <w>108</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>Calculate the area and
-select the faces when
-the area &gt; areaMin</panel_attributes>
+    <panel_attributes>Remove from faces
+the hided faces</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -3376,124 +3490,10 @@ the area &gt; areaMin</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2205</x>
-      <y>3294</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Unhide all the faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>2250</x>
-      <y>3330</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2250</x>
-      <y>2934</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2205</x>
-      <y>2898</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Select all linked faces
-of the selection</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2205</x>
-      <y>2979</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Add a new column to
-loops with the selection</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2205</x>
-      <y>3060</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Hide selected faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2250</x>
-      <y>3015</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2250</x>
-      <y>3096</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2205</x>
-      <y>3141</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Remove from faces
-the hided faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2250</x>
-      <y>3177</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2250</x>
-      <y>3240</y>
+      <y>3474</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -3506,7 +3506,7 @@ the hided faces</panel_attributes>
     <id>UMLActor</id>
     <coordinates>
       <x>792</x>
-      <y>108</y>
+      <y>342</y>
       <w>54</w>
       <h>90</h>
     </coordinates>
@@ -3517,7 +3517,7 @@ the hided faces</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>927</x>
-      <y>27</y>
+      <y>261</y>
       <w>108</w>
       <h>36</h>
     </coordinates>
@@ -3529,7 +3529,7 @@ bg=green</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>927</x>
-      <y>216</y>
+      <y>450</y>
       <w>108</w>
       <h>36</h>
     </coordinates>
@@ -3541,7 +3541,7 @@ bg=orange</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>927</x>
-      <y>153</y>
+      <y>387</y>
       <w>108</w>
       <h>36</h>
     </coordinates>
@@ -3553,7 +3553,7 @@ bg=cyan</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>927</x>
-      <y>90</y>
+      <y>324</y>
       <w>108</w>
       <h>36</h>
     </coordinates>
@@ -3565,7 +3565,7 @@ bg=cyan</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>900</x>
-      <y>0</y>
+      <y>234</y>
       <w>162</w>
       <h>270</h>
     </coordinates>
@@ -3578,7 +3578,7 @@ halign=left</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>36</y>
+      <y>270</y>
       <w>117</w>
       <h>117</h>
     </coordinates>
@@ -3589,7 +3589,7 @@ halign=left</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>99</y>
+      <y>333</y>
       <w>117</w>
       <h>54</h>
     </coordinates>
@@ -3600,7 +3600,7 @@ halign=left</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>126</y>
+      <y>360</y>
       <w>117</w>
       <h>63</h>
     </coordinates>
@@ -3611,7 +3611,7 @@ halign=left</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>828</x>
-      <y>126</y>
+      <y>360</y>
       <w>117</w>
       <h>126</h>
     </coordinates>
@@ -3622,7 +3622,7 @@ halign=left</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>657</x>
-      <y>414</y>
+      <y>648</y>
       <w>72</w>
       <h>36</h>
     </coordinates>
@@ -3634,7 +3634,7 @@ bg=orange</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>657</x>
-      <y>459</y>
+      <y>693</y>
       <w>72</w>
       <h>36</h>
     </coordinates>
@@ -3646,7 +3646,7 @@ bg=orange</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>657</x>
-      <y>504</y>
+      <y>738</y>
       <w>72</w>
       <h>36</h>
     </coordinates>
@@ -3658,7 +3658,7 @@ bg=orange</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>801</x>
-      <y>378</y>
+      <y>612</y>
       <w>288</w>
       <h>189</h>
     </coordinates>
@@ -3670,7 +3670,7 @@ bg=orange</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>846</x>
-      <y>450</y>
+      <y>684</y>
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -3682,7 +3682,7 @@ API</panel_attributes>
     <id>UMLGeneric</id>
     <coordinates>
       <x>954</x>
-      <y>450</y>
+      <y>684</y>
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -3694,7 +3694,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>423</y>
+      <y>657</y>
       <w>144</w>
       <h>54</h>
     </coordinates>
@@ -3705,7 +3705,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>468</y>
+      <y>702</y>
       <w>144</w>
       <h>27</h>
     </coordinates>
@@ -3716,7 +3716,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>486</y>
+      <y>720</y>
       <w>144</w>
       <h>54</h>
     </coordinates>
@@ -3727,7 +3727,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>909</x>
-      <y>468</y>
+      <y>702</y>
       <w>63</w>
       <h>27</h>
     </coordinates>
@@ -3738,7 +3738,7 @@ Tools</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2763</x>
-      <y>2664</y>
+      <y>2898</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3749,7 +3749,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2763</x>
-      <y>2673</y>
+      <y>2907</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -3760,7 +3760,7 @@ Tools</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2763</x>
-      <y>2736</y>
+      <y>2970</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -3773,7 +3773,7 @@ Tools</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2718</x>
-      <y>2700</y>
+      <y>2934</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3786,7 +3786,7 @@ of the object</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2619</x>
-      <y>2790</y>
+      <y>3024</y>
       <w>324</w>
       <h>63</h>
     </coordinates>
@@ -3797,7 +3797,7 @@ of the object</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2763</x>
-      <y>3060</y>
+      <y>3294</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3808,7 +3808,7 @@ of the object</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2718</x>
-      <y>2979</y>
+      <y>3213</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3821,7 +3821,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2763</x>
-      <y>3015</y>
+      <y>3249</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3832,7 +3832,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2718</x>
-      <y>2898</y>
+      <y>3132</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3843,7 +3843,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2763</x>
-      <y>2934</y>
+      <y>3168</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3855,7 +3855,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2763</x>
-      <y>2844</y>
+      <y>3078</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -3868,7 +3868,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2970</x>
-      <y>2664</y>
+      <y>2898</y>
       <w>324</w>
       <h>486</h>
     </coordinates>
@@ -3879,7 +3879,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3114</x>
-      <y>2673</y>
+      <y>2907</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3890,7 +3890,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2682</y>
+      <y>2916</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -3901,7 +3901,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>2718</y>
+      <y>2952</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3912,7 +3912,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2754</y>
+      <y>2988</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3923,7 +3923,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3114</x>
-      <y>3123</y>
+      <y>3357</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -3934,7 +3934,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2835</y>
+      <y>3069</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3945,7 +3945,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>2799</y>
+      <y>3033</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3957,7 +3957,7 @@ of the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>2880</y>
+      <y>3114</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3969,7 +3969,7 @@ loops with the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>2961</y>
+      <y>3195</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -3980,7 +3980,7 @@ loops with the selection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2916</y>
+      <y>3150</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -3991,7 +3991,7 @@ loops with the selection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2997</y>
+      <y>3231</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4002,7 +4002,7 @@ loops with the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>3042</y>
+      <y>3276</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4014,7 +4014,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>3078</y>
+      <y>3312</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4025,7 +4025,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3114</x>
-      <y>2619</y>
+      <y>2853</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4036,7 +4036,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>2628</y>
+      <y>2862</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -4047,7 +4047,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>3141</y>
+      <y>3375</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4058,7 +4058,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3114</x>
-      <y>3186</y>
+      <y>3420</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4069,7 +4069,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2754</x>
-      <y>3276</y>
+      <y>3510</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4080,7 +4080,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>3285</y>
+      <y>3519</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -4091,7 +4091,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>3348</y>
+      <y>3582</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -4104,7 +4104,7 @@ the hided faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2709</x>
-      <y>3312</y>
+      <y>3546</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4117,7 +4117,7 @@ of the object</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2682</x>
-      <y>3402</y>
+      <y>3636</y>
       <w>162</w>
       <h>72</h>
     </coordinates>
@@ -4128,7 +4128,7 @@ of the object</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2754</x>
-      <y>3681</y>
+      <y>3915</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4139,7 +4139,7 @@ of the object</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2709</x>
-      <y>3600</y>
+      <y>3834</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4152,7 +4152,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>3636</y>
+      <y>3870</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4163,7 +4163,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2709</x>
-      <y>3519</y>
+      <y>3753</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4174,7 +4174,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>3555</y>
+      <y>3789</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4186,7 +4186,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2754</x>
-      <y>3465</y>
+      <y>3699</y>
       <w>27</w>
       <h>72</h>
     </coordinates>
@@ -4199,7 +4199,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLFrame</id>
     <coordinates>
       <x>2898</x>
-      <y>3321</y>
+      <y>3555</y>
       <w>297</w>
       <h>324</h>
     </coordinates>
@@ -4210,7 +4210,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2961</x>
-      <y>3330</y>
+      <y>3564</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4221,7 +4221,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2961</x>
-      <y>3339</y>
+      <y>3573</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -4232,7 +4232,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2916</x>
-      <y>3375</y>
+      <y>3609</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4243,7 +4243,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2961</x>
-      <y>3411</y>
+      <y>3645</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4254,7 +4254,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3114</x>
-      <y>3618</y>
+      <y>3852</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4265,7 +4265,7 @@ the area &gt; areaMin</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2961</x>
-      <y>3492</y>
+      <y>3726</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4276,7 +4276,7 @@ the area &gt; areaMin</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2916</x>
-      <y>3456</y>
+      <y>3690</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4288,7 +4288,7 @@ of the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2916</x>
-      <y>3537</y>
+      <y>3771</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4300,7 +4300,7 @@ loops with the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>3456</y>
+      <y>3690</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4311,7 +4311,7 @@ loops with the selection</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>3492</y>
+      <y>3726</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4322,7 +4322,7 @@ loops with the selection</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3069</x>
-      <y>3537</y>
+      <y>3771</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4334,7 +4334,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3114</x>
-      <y>3573</y>
+      <y>3807</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4345,7 +4345,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3033</x>
-      <y>3276</y>
+      <y>3510</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4356,7 +4356,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3033</x>
-      <y>3285</y>
+      <y>3519</y>
       <w>27</w>
       <h>54</h>
     </coordinates>
@@ -4367,7 +4367,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3033</x>
-      <y>3636</y>
+      <y>3870</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4378,7 +4378,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3033</x>
-      <y>3681</y>
+      <y>3915</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4389,7 +4389,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2961</x>
-      <y>3411</y>
+      <y>3645</y>
       <w>180</w>
       <h>225</h>
     </coordinates>
@@ -4400,7 +4400,7 @@ the hided faces</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>2610</x>
-      <y>45</y>
+      <y>279</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4411,7 +4411,7 @@ the hided faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2610</x>
-      <y>45</y>
+      <y>279</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4422,7 +4422,7 @@ the hided faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2565</x>
-      <y>90</y>
+      <y>324</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4433,7 +4433,7 @@ the hided faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2565</x>
-      <y>171</y>
+      <y>405</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4446,7 +4446,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2610</x>
-      <y>126</y>
+      <y>360</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4457,7 +4457,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2610</x>
-      <y>207</y>
+      <y>441</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4468,7 +4468,7 @@ selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>2565</x>
-      <y>252</y>
+      <y>486</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4481,52 +4481,228 @@ the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>2610</x>
+      <y>522</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>567</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>select the faces 
+that point downwards</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>2610</x>
+      <y>1053</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>1008</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>603</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>648</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Extrude these faces 
+to the top </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>684</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>729</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Add a plane and make
+intersection with 
+the extruded faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>765</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>810</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Select faces of the 
+plane that don't have 
+faces underneath</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>846</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>891</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Extrude selected faces
+and faces needed
+supports</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2610</x>
+      <y>927</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>2565</x>
+      <y>972</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Cut at the bottom of
+the mold and add a 
+bottom</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>3393</x>
+      <y>243</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3393</x>
+      <y>243</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>3348</x>
       <y>288</y>
-      <w>27</w>
-      <h>63</h>
+      <w>108</w>
+      <h>45</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <panel_attributes>Get the offset</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>2565</x>
-      <y>333</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>select the faces 
-that point downwards</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>2610</x>
-      <y>819</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2610</x>
-      <y>774</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2610</x>
+      <x>3348</x>
       <y>369</y>
+      <w>108</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>Create a copy and
+separate the
+selected faces</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3393</x>
+      <y>324</y>
+      <w>27</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>3393</x>
+      <y>405</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4536,209 +4712,33 @@ that point downwards</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>2565</x>
-      <y>414</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Extrude these faces 
-to the top </panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2610</x>
+      <x>3348</x>
       <y>450</y>
-      <w>27</w>
-      <h>63</h>
+      <w>108</w>
+      <h>45</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+    <panel_attributes>Create an another copy 
+and cut faces above 
+the xy plane</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>2565</x>
-      <y>495</y>
+      <x>3501</x>
+      <y>288</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
-    <panel_attributes>Add a plane and make
-intersection with 
-the extruded faces</panel_attributes>
+    <panel_attributes>select the faces 
+that point downwards</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Relation</id>
+    <id>UMLSpecialState</id>
     <coordinates>
-      <x>2610</x>
+      <x>3699</x>
       <y>531</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2565</x>
-      <y>576</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Select faces of the 
-plane that don't have 
-faces underneath</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2610</x>
-      <y>612</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2565</x>
-      <y>657</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Extrude selected faces
-and faces needed
-supports</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>2610</x>
-      <y>693</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>2565</x>
-      <y>738</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Cut at the bottom of
-the mold and add a 
-bottom</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>3393</x>
-      <y>9</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=initial</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3393</x>
-      <y>9</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>3348</x>
-      <y>54</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Get the offset</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>3348</x>
-      <y>135</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Create a copy and
-separate the
-selected faces</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3393</x>
-      <y>90</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>3393</x>
-      <y>171</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>3348</x>
-      <y>216</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>Create an another copy 
-and cut faces above 
-the xy plane</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLState</id>
-    <coordinates>
-      <x>3501</x>
-      <y>54</y>
-      <w>108</w>
-      <h>45</h>
-    </coordinates>
-    <panel_attributes>select the faces 
-that point downwards</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>3699</x>
-      <y>297</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4749,7 +4749,7 @@ that point downwards</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3699</x>
-      <y>252</y>
+      <y>486</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4760,7 +4760,7 @@ that point downwards</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3546</x>
-      <y>90</y>
+      <y>324</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4771,7 +4771,7 @@ that point downwards</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3501</x>
-      <y>135</y>
+      <y>369</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4783,7 +4783,7 @@ to the top </panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3546</x>
-      <y>171</y>
+      <y>405</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4794,7 +4794,7 @@ to the top </panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3501</x>
-      <y>216</y>
+      <y>450</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4807,7 +4807,7 @@ the extruded faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3654</x>
-      <y>54</y>
+      <y>288</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4820,7 +4820,7 @@ faces underneath</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3699</x>
-      <y>90</y>
+      <y>324</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4831,7 +4831,7 @@ faces underneath</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3654</x>
-      <y>135</y>
+      <y>369</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4844,7 +4844,7 @@ supports</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3699</x>
-      <y>171</y>
+      <y>405</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4855,7 +4855,7 @@ supports</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3654</x>
-      <y>216</y>
+      <y>450</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4868,7 +4868,7 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3393</x>
-      <y>9</y>
+      <y>243</y>
       <w>180</w>
       <h>306</h>
     </coordinates>
@@ -4879,7 +4879,7 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3546</x>
-      <y>9</y>
+      <y>243</y>
       <w>180</w>
       <h>306</h>
     </coordinates>
@@ -4890,7 +4890,7 @@ bottom</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3132</x>
-      <y>387</y>
+      <y>621</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -4901,7 +4901,7 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>387</y>
+      <y>621</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4912,7 +4912,7 @@ bottom</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>432</y>
+      <y>666</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4923,7 +4923,7 @@ bottom</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>513</y>
+      <y>747</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4936,7 +4936,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>468</y>
+      <y>702</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4947,7 +4947,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>549</y>
+      <y>783</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4958,7 +4958,7 @@ selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>594</y>
+      <y>828</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4971,7 +4971,7 @@ the xy plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>630</y>
+      <y>864</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -4982,7 +4982,7 @@ the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>675</y>
+      <y>909</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -4994,7 +4994,7 @@ that point downwards</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3132</x>
-      <y>1161</y>
+      <y>1395</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -5005,7 +5005,7 @@ that point downwards</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>1116</y>
+      <y>1350</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5016,7 +5016,7 @@ that point downwards</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>711</y>
+      <y>945</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5027,7 +5027,7 @@ that point downwards</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>756</y>
+      <y>990</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5039,7 +5039,7 @@ to the top </panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>792</y>
+      <y>1026</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5050,7 +5050,7 @@ to the top </panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>837</y>
+      <y>1071</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5063,7 +5063,7 @@ the extruded faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>873</y>
+      <y>1107</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5074,7 +5074,7 @@ the extruded faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>918</y>
+      <y>1152</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5087,7 +5087,7 @@ plane and delete other</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>954</y>
+      <y>1188</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5098,7 +5098,7 @@ plane and delete other</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>999</y>
+      <y>1233</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5111,7 +5111,7 @@ supports</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3132</x>
-      <y>1035</y>
+      <y>1269</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5122,7 +5122,7 @@ supports</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3087</x>
-      <y>1080</y>
+      <y>1314</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5135,7 +5135,7 @@ bottom</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3420</x>
-      <y>369</y>
+      <y>603</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -5146,7 +5146,7 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3420</x>
-      <y>369</y>
+      <y>603</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5157,7 +5157,7 @@ bottom</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3375</x>
-      <y>414</y>
+      <y>648</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5168,7 +5168,7 @@ bottom</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3375</x>
-      <y>495</y>
+      <y>729</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5181,7 +5181,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3420</x>
-      <y>450</y>
+      <y>684</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5192,7 +5192,7 @@ selected faces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3420</x>
-      <y>531</y>
+      <y>765</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5203,7 +5203,7 @@ selected faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3375</x>
-      <y>576</y>
+      <y>810</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5216,7 +5216,7 @@ the xy plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3528</x>
-      <y>414</y>
+      <y>648</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5229,7 +5229,7 @@ them on the same plane</panel_attributes>
     <id>UMLSpecialState</id>
     <coordinates>
       <x>3726</x>
-      <y>657</y>
+      <y>891</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -5240,7 +5240,7 @@ them on the same plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3726</x>
-      <y>612</y>
+      <y>846</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5251,7 +5251,7 @@ them on the same plane</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3573</x>
-      <y>450</y>
+      <y>684</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5262,7 +5262,7 @@ them on the same plane</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3528</x>
-      <y>495</y>
+      <y>729</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5274,7 +5274,7 @@ to the top </panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3573</x>
-      <y>531</y>
+      <y>765</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5285,7 +5285,7 @@ to the top </panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3528</x>
-      <y>576</y>
+      <y>810</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5298,7 +5298,7 @@ the extruded faces</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3681</x>
-      <y>414</y>
+      <y>648</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5311,7 +5311,7 @@ plane and delete other</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3726</x>
-      <y>450</y>
+      <y>684</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5322,7 +5322,7 @@ plane and delete other</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3681</x>
-      <y>495</y>
+      <y>729</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5335,7 +5335,7 @@ supports</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3726</x>
-      <y>531</y>
+      <y>765</y>
       <w>27</w>
       <h>63</h>
     </coordinates>
@@ -5346,7 +5346,7 @@ supports</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>3681</x>
-      <y>576</y>
+      <y>810</y>
       <w>108</w>
       <h>45</h>
     </coordinates>
@@ -5359,7 +5359,7 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3420</x>
-      <y>369</y>
+      <y>603</y>
       <w>180</w>
       <h>306</h>
     </coordinates>
@@ -5370,11 +5370,93 @@ bottom</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>3573</x>
-      <y>369</y>
+      <y>603</y>
       <w>180</w>
       <h>306</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>180.0;50.0;180.0;10.0;90.0;10.0;90.0;320.0;10.0;320.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1143</x>
+      <y>207</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>1. STL
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1251</x>
+      <y>225</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1305</x>
+      <y>207</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>2. Magics
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1467</x>
+      <y>207</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>3. Magics with 
+supports
+fontsize=16</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1413</x>
+      <y>225</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1575</x>
+      <y>225</y>
+      <w>72</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1629</x>
+      <y>207</y>
+      <w>117</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>4. Machine code
+fontsize=16</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
